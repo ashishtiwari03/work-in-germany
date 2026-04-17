@@ -1,0 +1,35 @@
+name: "🐛 Bug Report"
+description: Report a dead link, wrong category, incorrect data, or other issue
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: bug_type
+    attributes:
+      label: What kind of issue?
+      options:
+        - Dead link / Job no longer exists
+        - Wrong category (e.g., listed as SWE but is Data Science)
+        - Wrong location
+        - Wrong visa/language tag
+        - Duplicate listing
+        - Scraper error
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: job_url
+    attributes:
+      label: Job URL (if applicable)
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      placeholder: Describe the issue clearly
+    validations:
+      required: true

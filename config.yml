@@ -1,0 +1,1243 @@
+# ============================================================================
+# Work in Germany — Configuration
+# ============================================================================
+# Scrapes Greenhouse & Lever public APIs, filters for Germany-based jobs.
+# Each company entry: name, url, type (greenhouse|lever), company_type, visa
+# ============================================================================
+
+settings:
+  max_age_days: 60
+  update_interval: "every 6 hours"
+
+# Germany location signals (case-insensitive)
+germany_signals:
+  cities:
+    - Berlin
+    - Munich
+    - München
+    - Hamburg
+    - Frankfurt
+    - Stuttgart
+    - Cologne
+    - Köln
+    - Düsseldorf
+    - Dusseldorf
+    - Leipzig
+    - Dresden
+    - Nuremberg
+    - Nürnberg
+    - Hannover
+    - Hanover
+    - Bonn
+    - Mannheim
+    - Karlsruhe
+    - Aachen
+    - Heidelberg
+    - Darmstadt
+    - Paderborn
+    - Bielefeld
+    - Dortmund
+    - Essen
+    - Freiburg
+    - Erlangen
+    - Wolfsburg
+    - Walldorf
+    - Göppingen
+    - Regensburg
+    - Ingolstadt
+    - Potsdam
+    - Sindelfingen
+    - Gütersloh
+    - Espelkamp
+    - Lippstadt
+    - Augsburg
+    - Jena
+    - Garching
+    - Herzogenaurach
+  regions:
+    - Germany
+    - Deutschland
+    - DACH
+    - "DE"
+  remote_signals:
+    - "Remote - Germany"
+    - "Remote Germany"
+    - "Remote, Germany"
+    - "Remote - DE"
+    - "Remote - DACH"
+    - "Remote - EMEA"
+    - "Remote EMEA"
+    - "Remote - Europe"
+    - "Remote Europe"
+    - "EMEA"
+
+# Normalize city names for display
+location_normalize:
+  "München": "Munich"
+  "Köln": "Cologne"
+  "Nürnberg": "Nuremberg"
+  "Hannover": "Hanover"
+  "Frankfurt am Main": "Frankfurt"
+
+# --------------------------------------------------------------------------
+# Job category classification (by title keywords)
+# --------------------------------------------------------------------------
+categories:
+  Software Engineering:
+    icon: "💻"
+    keywords:
+      - software engineer
+      - software developer
+      - softwareentwickler
+      - fullstack
+      - full-stack
+      - full stack
+      - frontend engineer
+      - frontend developer
+      - frontend-entwickler
+      - backend engineer
+      - backend developer
+      - backend-entwickler
+      - mobile engineer
+      - mobile developer
+      - ios engineer
+      - ios developer
+      - android engineer
+      - android developer
+      - embedded engineer
+      - embedded software
+      - platform engineer
+      - web developer
+      - web engineer
+      - webentwickler
+      - application engineer
+      - systems engineer
+      - rust engineer
+      - go engineer
+      - java developer
+      - java entwickler
+      - python developer
+      - python entwickler
+      - c++ developer
+      - .net developer
+      - php developer
+      - ruby developer
+      - kotlin developer
+      - swift developer
+      - QA engineer
+      - test engineer
+      - testingenieur
+      - automation engineer
+  Data Science & ML:
+    icon: "🤖"
+    keywords:
+      - data scientist
+      - machine learning
+      - ml engineer
+      - ai engineer
+      - deep learning
+      - nlp engineer
+      - computer vision
+      - research scientist
+      - applied scientist
+      - data analyst
+      - datenanalyst
+      - analytics engineer
+      - business intelligence
+      - bi analyst
+      - statistiker
+      - quantitative analyst
+  Data Engineering:
+    icon: "📊"
+    keywords:
+      - data engineer
+      - dateningenieur
+      - data platform
+      - data infrastructure
+      - etl
+      - analytics engineer
+      - database engineer
+      - database administrator
+      - dba
+      - data architect
+  Infrastructure & SRE:
+    icon: "🏗️"
+    keywords:
+      - devops
+      - sre
+      - site reliability
+      - infrastructure engineer
+      - cloud engineer
+      - cloud architect
+      - platform engineer
+      - systems administrator
+      - systemadministrator
+      - network engineer
+      - netzwerkingenieur
+      - security engineer
+      - it security
+      - devsecops
+      - kubernetes
+      - linux administrator
+  Product & Management:
+    icon: "📋"
+    keywords:
+      - product manager
+      - produktmanager
+      - project manager
+      - projektmanager
+      - program manager
+      - scrum master
+      - agile coach
+      - product owner
+      - technical program
+      - it manager
+      - teamleiter it
+      - delivery manager
+  Design & UX:
+    icon: "🎨"
+    keywords:
+      - designer
+      - ux designer
+      - ui designer
+      - product designer
+      - user researcher
+      - visual designer
+      - design system
+      - interaction designer
+      - grafik designer
+      - webdesigner
+  Business & Finance:
+    icon: "💼"
+    keywords:
+      - business analyst
+      - unternehmensberater
+      - consultant
+      - berater
+      - finance
+      - finanz
+      - accounting
+      - buchhalter
+      - controller
+      - controlling
+      - wirtschaftsprüfer
+      - steuerberater
+      - investment
+      - risk analyst
+      - compliance
+  Marketing & Sales:
+    icon: "📢"
+    keywords:
+      - marketing manager
+      - online marketing
+      - digital marketing
+      - content manager
+      - seo
+      - sem
+      - social media
+      - sales manager
+      - vertrieb
+      - account manager
+      - business development
+      - customer success
+      - key account
+      - growth manager
+  HR & Recruiting:
+    icon: "👥"
+    keywords:
+      - hr manager
+      - personalreferent
+      - recruiter
+      - talent acquisition
+      - people operations
+      - people partner
+      - personalberater
+      - human resources
+  Research & Science:
+    icon: "🔬"
+    keywords:
+      - research engineer
+      - forschungsingenieur
+      - wissenschaftlicher mitarbeiter
+      - research scientist
+      - postdoc
+      - phd
+      - doktorand
+      - r&d engineer
+      - laboringenieur
+      - wissenschaftliche hilfskraft
+  Werkstudent & Internship:
+    icon: "🎓"
+    keywords:
+      - werkstudent
+      - working student
+      - praktikum
+      - praktikant
+      - intern
+      - internship
+      - studentische hilfskraft
+      - studentenjob
+      - pflichtpraktikum
+      - praxissemester
+      - abschlussarbeit
+      - thesis
+      - bachelor thesis
+      - master thesis
+      - diplomarbeit
+  Trainee & Ausbildung:
+    icon: "🎒"
+    keywords:
+      - trainee
+      - ausbildung
+      - azubi
+      - auszubildende
+      - duales studium
+      - dual student
+      - berufsausbildung
+      - graduate program
+      - rotational program
+      - management trainee
+      - junior program
+      - berufseinstieg
+      - berufseinsteiger
+      - volontariat
+  Hardware Engineering:
+    icon: "🔧"
+    keywords:
+      - hardware engineer
+      - electrical engineer
+      - elektroingenieur
+      - mechanical engineer
+      - maschinenbauingenieur
+      - firmware
+      - pcb
+      - asic
+      - rf engineer
+      - signal integrity
+      - mechatroniker
+      - automatisierungstechniker
+  Other:
+    icon: "💼"
+    keywords: []
+
+# --------------------------------------------------------------------------
+# Company type icons
+# --------------------------------------------------------------------------
+company_icons:
+  dax40: "🔥"
+  unicorn: "🚀"
+  international: "🌍"
+  mittelstand: "🏭"
+  startup: "💡"
+
+# --------------------------------------------------------------------------
+# GREENHOUSE API companies
+# --------------------------------------------------------------------------
+greenhouse:
+
+  # === German Unicorns & Startups ===
+  - name: Celonis
+    board: celonis
+    company_type: unicorn
+    visa: true
+
+  - name: Personio
+    board: personio
+    company_type: unicorn
+    visa: true
+
+  - name: N26
+    board: n26
+    company_type: unicorn
+    visa: true
+
+  - name: Trade Republic
+    board: traderepublic
+    company_type: unicorn
+    visa: true
+
+  - name: Delivery Hero
+    board: deliveryhero
+    company_type: unicorn
+    visa: true
+
+  - name: FlixBus
+    board: flixbus
+    company_type: unicorn
+    visa: true
+
+  - name: Auto1 Group
+    board: auto1
+    company_type: unicorn
+    visa: true
+
+  - name: DeepL
+    board: deepl
+    company_type: unicorn
+    visa: true
+
+  - name: Ecosia
+    board: ecosia
+    company_type: startup
+    visa: true
+
+  - name: Contentful
+    board: contentful
+    company_type: startup
+    visa: true
+
+  - name: About You
+    board: aboutyou
+    company_type: startup
+    visa: true
+
+  - name: Trivago
+    board: trivago
+    company_type: mittelstand
+    visa: true
+
+  - name: Adjust (AppLovin)
+    board: adjust
+    company_type: international
+    visa: true
+
+  - name: HeyJobs
+    board: heyjobs
+    company_type: startup
+    visa: true
+
+  - name: Wefox
+    board: wefox
+    company_type: unicorn
+    visa: true
+
+  - name: Forto
+    board: forto
+    company_type: startup
+    visa: true
+
+  - name: Pitch
+    board: pitch
+    company_type: startup
+    visa: true
+
+  - name: Raisin
+    board: raisin
+    company_type: startup
+    visa: true
+
+  - name: Taxfix
+    board: taxfix
+    company_type: startup
+    visa: true
+
+  - name: Omio
+    board: omio
+    company_type: startup
+    visa: true
+
+  - name: Tier Mobility
+    board: tier
+    company_type: startup
+    visa: true
+
+  - name: Moonfare
+    board: moonfare
+    company_type: startup
+    visa: true
+
+  - name: Billie
+    board: billomat
+    company_type: startup
+    visa: true
+
+  - name: Pleo
+    board: pleo
+    company_type: unicorn
+    visa: true
+
+  - name: Remote
+    board: remotecom
+    company_type: unicorn
+    visa: true
+
+  - name: Sennder
+    board: sennder
+    company_type: unicorn
+    visa: true
+
+  - name: Mambu
+    board: mambu
+    company_type: startup
+    visa: true
+
+  # === International companies with German offices ===
+  - name: Datadog
+    board: datadog
+    company_type: international
+    visa: true
+
+  - name: Cloudflare
+    board: cloudflare
+    company_type: international
+    visa: true
+
+  - name: GitLab
+    board: gitlab
+    company_type: international
+    visa: true
+
+  - name: Elastic
+    board: elastic
+    company_type: international
+    visa: true
+
+  - name: MongoDB
+    board: mongodb
+    company_type: international
+    visa: true
+
+  - name: ClickHouse
+    board: clickhouse
+    company_type: international
+    visa: true
+
+  - name: Grafana Labs
+    board: grafanalabs
+    company_type: international
+    visa: true
+
+  - name: Figma
+    board: figma
+    company_type: international
+    visa: true
+
+  - name: HashiCorp
+    board: hashicorp
+    company_type: international
+    visa: true
+
+  - name: Confluent
+    board: confluent
+    company_type: international
+    visa: true
+
+  - name: Snyk
+    board: snyk
+    company_type: international
+    visa: true
+
+  - name: Miro
+    board: miro
+    company_type: international
+    visa: true
+
+  - name: JetBrains
+    board: jetbrains
+    company_type: international
+    visa: true
+
+  - name: Intercom
+    board: intercom
+    company_type: international
+    visa: true
+
+  - name: Notion
+    board: notion
+    company_type: international
+    visa: true
+
+  - name: Stripe
+    board: stripe
+    company_type: international
+    visa: true
+
+  - name: Databricks
+    board: databricks
+    company_type: international
+    visa: true
+
+  - name: Twilio
+    board: twilio
+    company_type: international
+    visa: true
+
+  - name: Docker
+    board: docker
+    company_type: international
+    visa: true
+
+  - name: Samsara
+    board: samsara
+    company_type: international
+    visa: true
+
+  - name: Grammarly
+    board: grammarly
+    company_type: international
+    visa: true
+
+  - name: Discord
+    board: discord
+    company_type: international
+    visa: true
+
+  - name: Spotify
+    board: spotify
+    company_type: international
+    visa: true
+
+  - name: Duolingo
+    board: duolingo
+    company_type: international
+    visa: true
+
+  - name: Coinbase
+    board: coinbase
+    company_type: international
+    visa: true
+
+  - name: Reddit
+    board: reddit
+    company_type: international
+    visa: true
+
+  - name: Unity Technologies
+    board: unity
+    company_type: international
+    visa: true
+
+  - name: Epic Games
+    board: epicgames
+    company_type: international
+    visa: true
+
+  - name: Postman
+    board: postman
+    company_type: international
+    visa: true
+
+  - name: Okta
+    board: okta
+    company_type: international
+    visa: true
+
+  - name: Deel
+    board: deel
+    company_type: international
+    visa: true
+
+  - name: Vercel
+    board: vercel
+    company_type: international
+    visa: true
+
+  - name: Sourcegraph
+    board: sourcegraph
+    company_type: international
+    visa: true
+
+  - name: Sumo Logic
+    board: sumologic
+    company_type: international
+    visa: true
+
+  - name: Kong
+    board: kong
+    company_type: international
+    visa: true
+
+  - name: CircleCI
+    board: circleci
+    company_type: international
+    visa: true
+
+  - name: LaunchDarkly
+    board: launchdarkly
+    company_type: international
+    visa: true
+
+  - name: Algolia
+    board: algolia
+    company_type: international
+    visa: true
+
+  - name: Cockroach Labs
+    board: cockroachlabs
+    company_type: international
+    visa: true
+
+  - name: Coursera
+    board: coursera
+    company_type: international
+    visa: true
+
+  - name: Culture Amp
+    board: cultureamp
+    company_type: international
+    visa: true
+
+  - name: Honeycomb
+    board: honeycomb
+    company_type: international
+    visa: true
+
+  - name: Mixpanel
+    board: mixpanel
+    company_type: international
+    visa: true
+
+  - name: Sentry
+    board: sentry
+    company_type: international
+    visa: true
+
+  - name: Cloudinary
+    board: cloudinary
+    company_type: international
+    visa: true
+
+  - name: Stytch
+    board: stytch
+    company_type: international
+    visa: true
+
+  - name: WorkOS
+    board: workos
+    company_type: international
+    visa: true
+
+  - name: Faire
+    board: faire
+    company_type: international
+    visa: true
+
+  - name: Cruise
+    board: cruise
+    company_type: international
+    visa: true
+
+  - name: Scale AI
+    board: scaleai
+    company_type: international
+    visa: true
+
+  - name: Chainalysis
+    board: chainalysis
+    company_type: international
+    visa: true
+
+  - name: Amplitude
+    board: amplitude
+    company_type: international
+    visa: true
+
+  - name: Abnormal Security
+    board: abnormalsecurity
+    company_type: international
+    visa: true
+
+  - name: Flexport
+    board: flexport
+    company_type: international
+    visa: true
+
+  - name: Dropbox
+    board: dropbox
+    company_type: international
+    visa: true
+
+  - name: Instacart
+    board: instacart
+    company_type: international
+    visa: true
+
+  - name: Gusto
+    board: gusto
+    company_type: international
+    visa: true
+
+  - name: Khan Academy
+    board: khanacademy
+    company_type: international
+    visa: true
+
+  - name: Kraken
+    board: kraken
+    company_type: international
+    visa: true
+
+  - name: SoundCloud
+    board: soundcloud
+    company_type: international
+    visa: true
+
+  - name: Wayfair
+    board: wayfair
+    company_type: international
+    visa: true
+
+  - name: HelloFresh
+    board: hellofresh
+    company_type: international
+    visa: true
+
+  - name: GetYourGuide
+    board: getyourguide
+    company_type: unicorn
+    visa: true
+
+  - name: Zalando
+    board: zalando
+    company_type: unicorn
+    visa: true
+
+  - name: Idealo
+    board: idealo
+    company_type: mittelstand
+    visa: true
+
+  - name: Wolt
+    board: wolt
+    company_type: international
+    visa: true
+
+  - name: Babbel
+    board: babbel
+    company_type: startup
+    visa: true
+
+  - name: Ada Health
+    board: adahealth
+    company_type: startup
+    visa: true
+
+  - name: Agicap
+    board: agicap
+    company_type: startup
+    visa: true
+
+  - name: Solaris
+    board: solarisbank
+    company_type: startup
+    visa: true
+
+  - name: Scalable Capital
+    board: scalablecapital
+    company_type: startup
+    visa: true
+
+# --------------------------------------------------------------------------
+# LEVER API companies
+# --------------------------------------------------------------------------
+lever:
+
+  - name: SumUp
+    company: sumup
+    company_type: unicorn
+    visa: true
+
+  - name: Palantir
+    company: palantir
+    company_type: international
+    visa: true
+
+  - name: Plaid
+    company: plaid
+    company_type: international
+    visa: true
+
+  - name: 1Password
+    company: 1password
+    company_type: international
+    visa: true
+
+  - name: Gorillas / Getir
+    company: getir
+    company_type: startup
+    visa: true
+
+  - name: Clue
+    company: clue
+    company_type: startup
+    visa: true
+
+  - name: Blinkist
+    company: blinkist
+    company_type: startup
+    visa: true
+
+# ==========================================================================
+# ARBEITSAGENTUR (Germany's federal job board — biggest single source)
+# Free API, no auth needed, just X-API-Key header
+# ==========================================================================
+arbeitsagentur:
+  searches:
+    # === SOFTWARE & TECH (English + German titles) ===
+    - { was: "Software Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Softwareentwickler", wo: "", size: 100, days: 14 }
+    - { was: "Webentwickler", wo: "", size: 100, days: 14 }
+    - { was: "Frontend Developer", wo: "", size: 100, days: 14 }
+    - { was: "Backend Developer", wo: "", size: 100, days: 14 }
+    - { was: "Fullstack Developer", wo: "", size: 100, days: 14 }
+    - { was: "DevOps Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Cloud Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Java Entwickler", wo: "", size: 100, days: 14 }
+    - { was: "Python Developer", wo: "", size: 100, days: 14 }
+    - { was: "Systemadministrator", wo: "", size: 100, days: 14 }
+    - { was: "IT Security", wo: "", size: 100, days: 14 }
+    - { was: "SAP Berater", wo: "", size: 100, days: 14 }
+    - { was: "SAP Developer", wo: "", size: 100, days: 14 }
+    - { was: "IT Consultant", wo: "", size: 100, days: 14 }
+    - { was: "Informatiker", wo: "", size: 100, days: 14 }
+    - { was: "QA Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Test Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Mobile Developer", wo: "", size: 100, days: 14 }
+    - { was: "Embedded Software", wo: "", size: 100, days: 14 }
+
+    # === DATA & AI ===
+    - { was: "Data Scientist", wo: "", size: 100, days: 14 }
+    - { was: "Data Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Data Analyst", wo: "", size: 100, days: 14 }
+    - { was: "Datenanalyst", wo: "", size: 100, days: 14 }
+    - { was: "Machine Learning Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Business Intelligence", wo: "", size: 100, days: 14 }
+
+    # === PRODUCT, DESIGN, MANAGEMENT ===
+    - { was: "Product Manager", wo: "", size: 100, days: 14 }
+    - { was: "Produktmanager", wo: "", size: 100, days: 14 }
+    - { was: "Projektmanager IT", wo: "", size: 100, days: 14 }
+    - { was: "Scrum Master", wo: "", size: 100, days: 14 }
+    - { was: "UX Designer", wo: "", size: 100, days: 14 }
+    - { was: "UI Designer", wo: "", size: 100, days: 14 }
+    - { was: "Product Designer", wo: "", size: 100, days: 14 }
+
+    # === BUSINESS, FINANCE, CONSULTING ===
+    - { was: "Business Analyst", wo: "", size: 100, days: 14 }
+    - { was: "Unternehmensberater", wo: "", size: 100, days: 14 }
+    - { was: "Controller", wo: "", size: 100, days: 14 }
+    - { was: "Finance Manager", wo: "", size: 100, days: 14 }
+    - { was: "Buchhalter", wo: "", size: 100, days: 14 }
+    - { was: "Wirtschaftsprüfer", wo: "", size: 100, days: 14 }
+
+    # === MARKETING & SALES ===
+    - { was: "Online Marketing Manager", wo: "", size: 100, days: 14 }
+    - { was: "Digital Marketing", wo: "", size: 100, days: 14 }
+    - { was: "Content Manager", wo: "", size: 100, days: 14 }
+    - { was: "Sales Manager", wo: "", size: 100, days: 14 }
+    - { was: "Vertrieb", wo: "", size: 100, days: 14 }
+    - { was: "Account Manager", wo: "", size: 100, days: 14 }
+    - { was: "Customer Success", wo: "", size: 100, days: 14 }
+
+    # === HR ===
+    - { was: "Personalreferent", wo: "", size: 100, days: 14 }
+    - { was: "Recruiter", wo: "", size: 100, days: 14 }
+    - { was: "HR Manager", wo: "", size: 100, days: 14 }
+
+    # === RESEARCH & SCIENCE ===
+    - { was: "Wissenschaftlicher Mitarbeiter Informatik", wo: "", size: 100, days: 14 }
+    - { was: "Research Engineer", wo: "", size: 100, days: 14 }
+    - { was: "Doktorand Informatik", wo: "", size: 50, days: 14 }
+    - { was: "Postdoc Computer Science", wo: "", size: 50, days: 14 }
+
+    # === WERKSTUDENT (Working Student) — ALL FIELDS ===
+    - { was: "Werkstudent Software", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent IT", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent Data", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent Marketing", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent Finance", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent HR", wo: "", size: 100, days: 14 }
+    - { was: "Werkstudent", wo: "", size: 100, days: 14 }
+    - { was: "Working Student", wo: "", size: 100, days: 14 }
+    - { was: "Studentische Hilfskraft", wo: "", size: 100, days: 14 }
+
+    # === PRAKTIKUM (Internship) — ALL FIELDS ===
+    - { was: "Praktikum Software", wo: "", size: 100, days: 14 }
+    - { was: "Praktikum IT", wo: "", size: 100, days: 14 }
+    - { was: "Praktikum Data Science", wo: "", size: 100, days: 14 }
+    - { was: "Praktikum Marketing", wo: "", size: 100, days: 14 }
+    - { was: "Praktikum BWL", wo: "", size: 100, days: 14 }
+    - { was: "Praktikum", wo: "", size: 100, days: 14 }
+    - { was: "Pflichtpraktikum", wo: "", size: 100, days: 14 }
+
+    # === AUSBILDUNG (Apprenticeship) ===
+    - { was: "Ausbildung Fachinformatiker", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Anwendungsentwicklung", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Systemintegration", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung IT", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Kaufmann", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Mediengestalter", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Elektroniker", wo: "", size: 100, days: 14 }
+    - { was: "Ausbildung Mechatroniker", wo: "", size: 100, days: 14 }
+
+    # === DUALES STUDIUM ===
+    - { was: "Duales Studium Informatik", wo: "", size: 100, days: 14 }
+    - { was: "Duales Studium Wirtschaftsinformatik", wo: "", size: 100, days: 14 }
+    - { was: "Duales Studium BWL", wo: "", size: 100, days: 14 }
+    - { was: "Duales Studium", wo: "", size: 100, days: 14 }
+
+    # === TRAINEE PROGRAMS ===
+    - { was: "Trainee IT", wo: "", size: 100, days: 14 }
+    - { was: "Trainee Programm", wo: "", size: 100, days: 14 }
+    - { was: "Graduate Program", wo: "", size: 100, days: 14 }
+    - { was: "Management Trainee", wo: "", size: 100, days: 14 }
+    - { was: "Berufseinstieg IT", wo: "", size: 100, days: 14 }
+
+    # === JUNIOR / ENTRY LEVEL ===
+    - { was: "Junior Software", wo: "", size: 100, days: 14 }
+    - { was: "Junior Developer", wo: "", size: 100, days: 14 }
+    - { was: "Junior Data", wo: "", size: 100, days: 14 }
+    - { was: "Junior Consultant", wo: "", size: 100, days: 14 }
+    - { was: "Berufseinsteiger IT", wo: "", size: 100, days: 14 }
+    - { was: "Entry Level Engineer", wo: "", size: 100, days: 14 }
+
+    # === ENGINEERING (non-software) ===
+    - { was: "Elektroingenieur", wo: "", size: 100, days: 14 }
+    - { was: "Maschinenbauingenieur", wo: "", size: 100, days: 14 }
+    - { was: "Mechatroniker", wo: "", size: 100, days: 14 }
+    - { was: "Automatisierungstechniker", wo: "", size: 100, days: 14 }
+
+    # === MINIJOB / STUDENT JOBS ===
+    - { was: "Minijob IT", wo: "", size: 50, days: 14 }
+    - { was: "Studentenjob", wo: "", size: 100, days: 14 }
+    - { was: "Aushilfe IT", wo: "", size: 50, days: 14 }
+
+# ==========================================================================
+# PERSONIO ATS (German-made ATS — used by 100s of DACH companies)
+# Public XML feed: https://{slug}.jobs.personio.de/xml
+# ==========================================================================
+personio:
+  - name: Zolar
+    slug: zolar
+    company_type: startup
+    visa: true
+
+  - name: Finn Auto
+    slug: finn4
+    company_type: startup
+    visa: true
+
+  - name: Enpal
+    slug: enpal
+    company_type: unicorn
+    visa: true
+
+  - name: CLARK
+    slug: clark
+    company_type: startup
+    visa: true
+
+  - name: Grover
+    slug: grover
+    company_type: startup
+    visa: true
+
+  - name: Jimdo
+    slug: jimdo
+    company_type: startup
+    visa: true
+
+  - name: Staffbase
+    slug: staffbase
+    company_type: startup
+    visa: true
+
+  - name: Solarisbank
+    slug: solarisbank
+    company_type: startup
+    visa: true
+
+  - name: CoachHub
+    slug: coachhub
+    company_type: startup
+    visa: true
+
+  - name: IONOS
+    slug: ionos-group
+    company_type: mittelstand
+    visa: true
+
+  - name: Chrono24
+    slug: chrono24
+    company_type: startup
+    visa: true
+
+  - name: HiPeople
+    slug: hipeople
+    company_type: startup
+    visa: true
+
+  - name: Comtravo
+    slug: comtravo
+    company_type: startup
+    visa: true
+
+  - name: Planday
+    slug: planday
+    company_type: startup
+    visa: true
+
+  - name: Moss
+    slug: moss
+    company_type: startup
+    visa: true
+
+  - name: Usercentrics
+    slug: usercentrics
+    company_type: startup
+    visa: true
+
+# ==========================================================================
+# SMARTRECRUITERS (used by many EU companies)
+# Public API: https://api.smartrecruiters.com/v1/companies/{id}/postings
+# ==========================================================================
+smartrecruiters:
+  - name: Lidl
+    company_id: Lidl
+    company_type: dax40
+    visa: true
+
+  - name: BASF
+    company_id: BASF
+    company_type: dax40
+    visa: true
+
+  - name: Adidas
+    company_id: adloox
+    company_type: dax40
+    visa: true
+
+  - name: Zalando
+    company_id: Zalando
+    company_type: unicorn
+    visa: true
+
+  - name: Puma
+    company_id: PUMA
+    company_type: dax40
+    visa: true
+
+  - name: Infineon
+    company_id: Infineon
+    company_type: dax40
+    visa: true
+
+  - name: Continental
+    company_id: Continental
+    company_type: dax40
+    visa: true
+
+  - name: DHL
+    company_id: DeutschePostDHL
+    company_type: dax40
+    visa: true
+
+  - name: Henkel
+    company_id: Henkel
+    company_type: dax40
+    visa: true
+
+  - name: Bayer
+    company_id: Bayer
+    company_type: dax40
+    visa: true
+
+# ==========================================================================
+# WORKDAY (used by SAP, Siemens, BMW, Allianz, Deutsche Bank, etc.)
+# Each company has a unique Workday tenant + career site
+# ==========================================================================
+workday:
+  - name: SAP
+    base_url: https://jobs.sap.com
+    tenant: sap
+    site: Search
+    company_type: dax40
+    visa: true
+
+  - name: Siemens
+    base_url: https://jobs.siemens.com
+    tenant: siemens
+    site: Siemens
+    company_type: dax40
+    visa: true
+
+  - name: BMW
+    base_url: https://www.bmwgroup.jobs
+    tenant: bmwgroup
+    site: BMWGroupCareers
+    company_type: dax40
+    visa: true
+
+  - name: Allianz
+    base_url: https://allianz.wd3.myworkdayjobs.com
+    tenant: allianz
+    site: Allianz
+    company_type: dax40
+    visa: true
+
+  - name: Deutsche Bank
+    base_url: https://db.wd3.myworkdayjobs.com
+    tenant: db
+    site: DBCareers
+    company_type: dax40
+    visa: true
+
+  - name: Merck
+    base_url: https://merck.wd3.myworkdayjobs.com
+    tenant: merck
+    site: MerckCareers
+    company_type: dax40
+    visa: true
+
+# ==========================================================================
+# JOBSPY (LinkedIn, Indeed, Glassdoor — via python-jobspy library)
+# pip install python-jobspy
+# ==========================================================================
+jobspy:
+  searches:
+    # === TECH ===
+    - { term: "software engineer", location: "Germany", sites: [linkedin, indeed, glassdoor], results_wanted: 80 }
+    - { term: "data scientist", location: "Germany", sites: [linkedin, indeed, glassdoor], results_wanted: 60 }
+    - { term: "machine learning engineer", location: "Germany", sites: [linkedin, indeed, glassdoor], results_wanted: 50 }
+    - { term: "devops engineer", location: "Germany", sites: [linkedin, indeed, glassdoor], results_wanted: 50 }
+    - { term: "frontend developer", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "backend developer", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "data engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "cloud engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "IT security engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "SAP consultant Germany", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "QA engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 30 }
+
+    # === PRODUCT, DESIGN, MANAGEMENT ===
+    - { term: "product manager tech", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "UX designer", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "scrum master", location: "Germany", sites: [linkedin, indeed], results_wanted: 30 }
+    - { term: "project manager IT", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+
+    # === BUSINESS & FINANCE ===
+    - { term: "business analyst", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "management consultant", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "finance manager", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "controller", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+
+    # === MARKETING & SALES ===
+    - { term: "marketing manager", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "sales manager", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "customer success manager", location: "Germany", sites: [linkedin, indeed], results_wanted: 30 }
+
+    # === STUDENTS & ENTRY LEVEL ===
+    - { term: "Werkstudent", location: "Germany", sites: [linkedin, indeed], results_wanted: 80 }
+    - { term: "working student", location: "Germany", sites: [linkedin, indeed], results_wanted: 60 }
+    - { term: "Praktikum", location: "Germany", sites: [linkedin, indeed], results_wanted: 80 }
+    - { term: "internship", location: "Germany", sites: [linkedin, indeed], results_wanted: 60 }
+    - { term: "Ausbildung Fachinformatiker", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "Duales Studium IT", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "trainee program", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "junior developer", location: "Germany", sites: [linkedin, indeed], results_wanted: 60 }
+    - { term: "Berufseinsteiger", location: "Germany", sites: [linkedin, indeed], results_wanted: 50 }
+    - { term: "graduate program Germany", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+
+    # === RESEARCH ===
+    - { term: "wissenschaftlicher Mitarbeiter Informatik", location: "Germany", sites: [linkedin, indeed], results_wanted: 40 }
+    - { term: "research engineer", location: "Germany", sites: [linkedin, indeed], results_wanted: 30 }
+    - { term: "PhD computer science", location: "Germany", sites: [linkedin, indeed], results_wanted: 30 }

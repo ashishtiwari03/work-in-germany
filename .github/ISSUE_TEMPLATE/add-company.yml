@@ -1,0 +1,89 @@
+name: "🆕 Add a Company"
+description: Suggest a company to add to the job tracker
+title: "[Company] "
+labels: ["new-company"]
+body:
+  - type: input
+    id: company_name
+    attributes:
+      label: Company Name
+      placeholder: e.g., DeepL, Celonis, SAP
+    validations:
+      required: true
+
+  - type: input
+    id: careers_url
+    attributes:
+      label: Career Page URL
+      placeholder: e.g., https://www.deepl.com/en/careers
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ats
+    attributes:
+      label: Applicant Tracking System (if known)
+      options:
+        - Greenhouse
+        - Lever
+        - Workday
+        - SmartRecruiters
+        - Personio
+        - BambooHR
+        - SAP SuccessFactors
+        - Other / Don't know
+    validations:
+      required: false
+
+  - type: input
+    id: locations
+    attributes:
+      label: Office Locations in Germany
+      placeholder: e.g., Berlin, Munich, Hamburg
+    validations:
+      required: true
+
+  - type: dropdown
+    id: visa
+    attributes:
+      label: Do they sponsor work visas?
+      options:
+        - "Yes"
+        - "No"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Working Language
+      options:
+        - English
+        - German
+        - Both (depends on team)
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: company_type
+    attributes:
+      label: Company Type
+      options:
+        - DAX 40 / Large German Corporation
+        - Unicorn / High-Growth Startup
+        - International Company (HQ outside Germany)
+        - Mittelstand (Medium-Sized German Company)
+        - Startup
+        - Public Sector / Research
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      placeholder: Anything else helpful — e.g., "great for junior devs", "requires C1 German for client-facing roles", "known for good relocation support"
+    validations:
+      required: false
