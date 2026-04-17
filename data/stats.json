@@ -1,9 +1,23 @@
 {
-  "total_jobs": 0,
-  "visa_friendly": 0,
-  "english_friendly": 0,
-  "companies_tracked": 0,
-  "categories": {},
-  "top_cities": {},
-  "last_updated": ""
+  "total_jobs": 3537,
+  "visa_friendly": 1019,
+  "english_friendly": 88,
+  "companies_tracked": 1437,
+  "categories": {
+    "Business & Finance": 374,
+    "Werkstudent & Internship": 462,
+    "Other": 1055,
+    "Software Engineering": 470,
+    "Infrastructure & SRE": 158,
+    "Marketing & Sales": 254,
+    "Data Science & ML": 158,
+    "Data Engineering": 49,
+    "Design & UX": 73,
+    "Product & Management": 178,
+    "HR & Recruiting": 48,
+    "Trainee & Ausbildung": 202,
+    "Research & Science": 46,
+    "Hardware Engineering": 10
+  },
+  "last_updated": "2026-04-17 12:27 UTC"
 }
