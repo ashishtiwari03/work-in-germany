@@ -391,6 +391,21 @@ def format_date(d: str) -> str:
         return d
 
 
+def github_slugify(heading: str) -> str:
+    """
+    Replicate GitHub's heading-to-anchor conversion.
+    Example: "🎓 Werkstudent & Internship" → "-werkstudent--internship"
+    """
+    # Lowercase
+    s = heading.lower()
+    # Remove all chars except ASCII letters, digits, spaces, and hyphens
+    # This removes emojis, &, (, ), etc.
+    s = re.sub(r'[^a-z0-9\s-]', '', s)
+    # Replace whitespace with hyphens
+    s = re.sub(r'\s', '-', s)
+    return s
+
+
 def job_row(j: dict) -> str:
     icon = COMPANY_ICONS.get(j.get("company_type", ""), "")
     company = f"{icon} {j['company']}".strip()
@@ -402,12 +417,10 @@ def job_row(j: dict) -> str:
     location = j.get("location", "")
     if len(location) > 30:
         location = location[:27] + "..."
-    lang = LANG_ICONS.get(j.get("language", "unknown"), "—")
-    visa = VISA_ICONS.get(j.get("visa", "unknown"), "❓")
     posted = format_date(j.get("posted_at", ""))
     url = j.get("url", "")
     apply_link = f"[Apply]({url})" if url else "—"
-    return f"| {company} | {title} | {location} | {lang} | {visa} | {posted} | {apply_link} |"
+    return f"| {company} | {title} | {location} | {posted} | {apply_link} |"
 
 
 def generate_readme(jobs: list[dict], stats: dict, config: dict):
@@ -453,7 +466,8 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
     for cat in cats_order:
         cat_icon = config["categories"].get(cat, {}).get("icon", "💼")
         count = stats["categories"].get(cat, 0)
-        anchor = cat.lower().replace(" & ", "--").replace(" ", "-")
+        # Match GitHub's anchor format for the actual heading below
+        anchor = github_slugify(f"{cat_icon} {cat}")
         lines.append(f"{cat_icon} [{cat}](#{anchor}) ({count})\n")
     lines.append("---\n")
 
@@ -477,22 +491,16 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
     lines.append("| 🌍 | International Company |")
     lines.append("| 🏭 | German Mittelstand |")
     lines.append("| 💡 | Startup |")
-    lines.append("| 🇬🇧 | English OK |")
-    lines.append("| 🇩🇪 | German Required |")
-    lines.append("| 🔄 | German Preferred |")
-    lines.append("| ✅ | Visa Sponsorship |")
-    lines.append("| ❌ | No Visa Sponsorship |")
-    lines.append("| ❓ | Unknown |")
     lines.append("\n---\n")
 
     # Job tables per category
-    # LIMIT: Show max 100 most recent jobs per category in README
-    # (Full data always available in data/jobs.json)
-    MAX_PER_CATEGORY = 100
+    # LIMIT: Show max 50 most recent jobs per category in README
+    # GitHub refuses to render markdown files over ~500KB
+    # Full data always available in data/jobs.json
+    MAX_PER_CATEGORY = 50
 
     for cat in cats_order:
         cat_icon = config["categories"].get(cat, {}).get("icon", "💼")
-        anchor = cat.lower().replace(" & ", "--").replace(" ", "-")
         cat_jobs = [j for j in jobs if j.get("category") == cat]
         total_in_cat = len(cat_jobs)
         display_jobs = cat_jobs[:MAX_PER_CATEGORY]
@@ -503,8 +511,8 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
         if total_in_cat > MAX_PER_CATEGORY:
             lines.append(f"> Showing {MAX_PER_CATEGORY} of {total_in_cat} jobs. See all in [`data/jobs.json`](data/jobs.json).\n")
 
-        lines.append("| Company | Role | Location | Lang | Visa | Posted | Apply |")
-        lines.append("|---------|------|----------|------|------|--------|-------|")
+        lines.append("| Company | Role | Location | Posted | Apply |")
+        lines.append("|---------|------|----------|--------|-------|")
 
         if display_jobs:
             for j in display_jobs:
