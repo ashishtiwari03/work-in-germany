@@ -325,22 +325,27 @@ def merge(existing: dict, new_jobs: list[dict], max_age: int = 60) -> list[dict]
 
     # Deduplicate by URL (keep the one with most metadata)
     seen_urls = {}
+    to_remove = []
     for jid, j in active.items():
         url = j.get("url", "").rstrip("/").lower()
         if not url:
             continue
         if url in seen_urls:
-            old = active[seen_urls[url]]
+            old_jid = seen_urls[url]
+            old = active[old_jid]
             # Keep the one with more known metadata
             old_score = (old.get("language") != "unknown") + (old.get("visa") != "unknown") + bool(old.get("company_type"))
             new_score = (j.get("language") != "unknown") + (j.get("visa") != "unknown") + bool(j.get("company_type"))
             if new_score > old_score:
-                del active[seen_urls[url]]
+                to_remove.append(old_jid)
                 seen_urls[url] = jid
             else:
-                active.pop(jid, None)
+                to_remove.append(jid)
         else:
             seen_urls[url] = jid
+
+    for jid in to_remove:
+        active.pop(jid, None)
 
     return sorted(active.values(), key=lambda j: j.get("posted_at") or "", reverse=True)
 
