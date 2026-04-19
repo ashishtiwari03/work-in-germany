@@ -35,8 +35,12 @@ Is your degree recognized in Germany?
 ### Requirements
 - A recognized university degree (check [Anabin](https://anabin.kmk.org/anabin.html) — your institution needs "H+" status)
 - A job offer or contract with a German employer
-- Minimum salary: **€45,300/year gross** (2024, general) or **€41,042/year** for shortage occupations (IT, engineering, science, medicine)
+- Minimum salary (2026 thresholds, valid from 1 January 2026):
+  - **€50,700/year gross** for general / standard occupations
+  - **€45,934.20/year gross** for shortage occupations (IT, engineering, science, medicine), recent graduates (degree < 3 years old), and qualifying IT specialists without a degree
+  - **€55,770/year gross** if you are over 45 years old
 - The job must match your qualification (roughly related field)
+- Source: [Make it in Germany](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card) · thresholds are re-indexed every January, so always double-check the current year
 
 ### Benefits
 - Valid for **4 years** (or duration of contract + 3 months)
@@ -169,9 +173,15 @@ The Ausländerbehörde (foreigners' registration office) is... an experience. He
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimer & Verification
 
-This guide is based on publicly available information and community experiences as of 2025. Immigration laws change frequently. Always verify current requirements with official sources (German embassy, Make it in Germany, your local Ausländerbehörde). Consider consulting an immigration lawyer (Migrationsanwalt) for complex cases.
+**Last verified: April 2026.** Immigration rules, thresholds, and processing times change often — always cross-check against official sources before making decisions:
+
+- [Make it in Germany](https://www.make-it-in-germany.com/en/) (the federal government portal)
+- Your German embassy / consulate
+- Your local Ausländerbehörde
+
+For complex cases, consult a Migrationsanwalt (immigration lawyer). This guide aggregates publicly available info and community experience — it's a starting point, not legal advice.
 
 ---
 

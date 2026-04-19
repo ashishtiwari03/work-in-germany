@@ -525,7 +525,6 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
     # Footer
     lines.append("---\n")
     lines.append(f"*Last updated: {updated} • Total: {total} jobs across {companies_n} companies*\n")
-    lines.append("*Built with ❤️ for everyone trying to build a career in Germany.*\n")
 
     with open(README_PATH, "w") as f:
         f.write("\n".join(lines))

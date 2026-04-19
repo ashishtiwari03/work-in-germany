@@ -6,6 +6,12 @@
 
 ---
 
+> **About the numbers in this guide:** salary ranges are aggregated from community reports on [Glassdoor](https://www.glassdoor.de), [Kununu](https://www.kununu.com), [Levels.fyi](https://www.levels.fyi/?country=Germany), and the annual [StepStone Gehaltsreport](https://www.stepstone.de/gehaltsreport/). They are approximate and vary widely by company, city, and individual negotiation — always verify with these sources for your specific case. Tax deduction percentages and tax classes are current as of the 2026 tax year.
+>
+> **Last verified: April 2026.**
+
+---
+
 ## 💶 Brutto vs. Netto — The Painful Truth
 
 In Germany, your **Brutto (gross) salary** and your **Netto (net/take-home) salary** are VERY different. Expect to lose **35-45%** of your gross salary to taxes and social contributions.
