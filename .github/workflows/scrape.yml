@@ -45,4 +45,9 @@ jobs:
           TOTAL=$(python -c "import json; print(json.load(open('data/stats.json'))['total_jobs'])")
           git add data/ README.md
           git commit -m "chore: update jobs [${TOTAL} listings]"
-          git push
+          # Retry loop: pull latest & push, in case another run pushed first
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
