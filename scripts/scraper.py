@@ -323,6 +323,25 @@ def merge(existing: dict, new_jobs: list[dict], max_age: int = 60) -> list[dict]
         except ValueError:
             active[jid] = j
 
+    # Deduplicate by URL (keep the one with most metadata)
+    seen_urls = {}
+    for jid, j in active.items():
+        url = j.get("url", "").rstrip("/").lower()
+        if not url:
+            continue
+        if url in seen_urls:
+            old = active[seen_urls[url]]
+            # Keep the one with more known metadata
+            old_score = (old.get("language") != "unknown") + (old.get("visa") != "unknown") + bool(old.get("company_type"))
+            new_score = (j.get("language") != "unknown") + (j.get("visa") != "unknown") + bool(j.get("company_type"))
+            if new_score > old_score:
+                del active[seen_urls[url]]
+                seen_urls[url] = jid
+            else:
+                active.pop(jid, None)
+        else:
+            seen_urls[url] = jid
+
     return sorted(active.values(), key=lambda j: j.get("posted_at") or "", reverse=True)
 
 
@@ -370,12 +389,20 @@ def format_date(d: str) -> str:
 def job_row(j: dict) -> str:
     icon = COMPANY_ICONS.get(j.get("company_type", ""), "")
     company = f"{icon} {j['company']}".strip()
+    if len(company) > 35:
+        company = company[:32] + "..."
+    title = j.get("title", "")
+    if len(title) > 70:
+        title = title[:67] + "..."
+    location = j.get("location", "")
+    if len(location) > 30:
+        location = location[:27] + "..."
     lang = LANG_ICONS.get(j.get("language", "unknown"), "—")
     visa = VISA_ICONS.get(j.get("visa", "unknown"), "❓")
     posted = format_date(j.get("posted_at", ""))
     url = j.get("url", "")
     apply_link = f"[Apply]({url})" if url else "—"
-    return f"| {company} | {j['title']} | {j['location']} | {lang} | {visa} | {posted} | {apply_link} |"
+    return f"| {company} | {title} | {location} | {lang} | {visa} | {posted} | {apply_link} |"
 
 
 def generate_readme(jobs: list[dict], stats: dict, config: dict):
@@ -454,18 +481,28 @@ def generate_readme(jobs: list[dict], stats: dict, config: dict):
     lines.append("\n---\n")
 
     # Job tables per category
+    # LIMIT: Show max 100 most recent jobs per category in README
+    # (Full data always available in data/jobs.json)
+    MAX_PER_CATEGORY = 100
+
     for cat in cats_order:
         cat_icon = config["categories"].get(cat, {}).get("icon", "💼")
         anchor = cat.lower().replace(" & ", "--").replace(" ", "-")
         cat_jobs = [j for j in jobs if j.get("category") == cat]
+        total_in_cat = len(cat_jobs)
+        display_jobs = cat_jobs[:MAX_PER_CATEGORY]
 
         lines.append(f"## {cat_icon} {cat}\n")
         lines.append("[Back to top](#-work-in-germany--automated-job-board)\n")
+
+        if total_in_cat > MAX_PER_CATEGORY:
+            lines.append(f"> Showing {MAX_PER_CATEGORY} of {total_in_cat} jobs. See all in [`data/jobs.json`](data/jobs.json).\n")
+
         lines.append("| Company | Role | Location | Lang | Visa | Posted | Apply |")
         lines.append("|---------|------|----------|------|------|--------|-------|")
 
-        if cat_jobs:
-            for j in cat_jobs:
+        if display_jobs:
+            for j in display_jobs:
                 lines.append(job_row(j))
         else:
             lines.append("| *No jobs currently listed — check back soon!* | | | | | | |")
