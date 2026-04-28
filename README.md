@@ -1,12 +1,12 @@
 # 🇩🇪 Work in Germany — Automated Job Board
 
-![Jobs](https://img.shields.io/badge/jobs-24180-blue)
-![Visa Friendly](https://img.shields.io/badge/visa%20friendly-3451-green)
-![English OK](https://img.shields.io/badge/english%20OK-336-orange)
-![Companies](https://img.shields.io/badge/companies-6865-purple)
+![Jobs](https://img.shields.io/badge/jobs-24464-blue)
+![Visa Friendly](https://img.shields.io/badge/visa%20friendly-3465-green)
+![English OK](https://img.shields.io/badge/english%20OK-338-orange)
+![Companies](https://img.shields.io/badge/companies-6936-purple)
 ![Updated](https://img.shields.io/badge/updated-every%206%20hours-success)
 
-> **Fully automated** list of tech jobs in Germany, scraped from **6865 company career pages** and updated every 6 hours.
+> **Fully automated** list of tech jobs in Germany, scraped from **6936 company career pages** and updated every 6 hours.
 
 > 🔄 Unlike manual lists, this repo uses **100+ company APIs** (Greenhouse, Lever) and updates automatically via GitHub Actions.
 > Every listing is tagged with language requirements and visa sponsorship status.
@@ -17,33 +17,33 @@
 
 ## 📂 Browse Jobs by Category
 
-💻 [Software Engineering](#-software-engineering) (2557)
+💻 [Software Engineering](#-software-engineering) (2592)
 
-🤖 [Data Science & ML](#-data-science--ml) (883)
+🤖 [Data Science & ML](#-data-science--ml) (896)
 
 📊 [Data Engineering](#-data-engineering) (279)
 
-🏗️ [Infrastructure & SRE](#-infrastructure--sre) (810)
+🏗️ [Infrastructure & SRE](#-infrastructure--sre) (823)
 
-📋 [Product & Management](#-product--management) (1003)
+📋 [Product & Management](#-product--management) (1011)
 
-🎨 [Design & UX](#-design--ux) (272)
+🎨 [Design & UX](#-design--ux) (274)
 
-💼 [Business & Finance](#-business--finance) (2878)
+💼 [Business & Finance](#-business--finance) (2903)
 
-📢 [Marketing & Sales](#-marketing--sales) (2190)
+📢 [Marketing & Sales](#-marketing--sales) (2241)
 
-👥 [HR & Recruiting](#-hr--recruiting) (986)
+👥 [HR & Recruiting](#-hr--recruiting) (988)
 
-🔬 [Research & Science](#-research--science) (152)
+🔬 [Research & Science](#-research--science) (153)
 
-🎓 [Werkstudent & Internship](#-werkstudent--internship) (4868)
+🎓 [Werkstudent & Internship](#-werkstudent--internship) (4916)
 
-🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (708)
+🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (717)
 
-🔧 [Hardware Engineering](#-hardware-engineering) (25)
+🔧 [Hardware Engineering](#-hardware-engineering) (26)
 
-💼 [Other](#-other) (6569)
+💼 [Other](#-other) (6645)
 
 ---
 
@@ -75,7 +75,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2557 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2592 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -134,10 +134,13 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 883 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 896 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🚀 N26 | Data Analyst - AFC  | Berlin | Today | [Apply](https://n26.com/en-eu/careers/positions/7837124?gh_jid=7837124) |
+| 💡 Raisin | AI Engineer (m/f/d) | Berlin, Berlin | Today | [Apply](https://job-boards.eu.greenhouse.io/raisin/jobs/4845882101) |
+| 🚀 GetYourGuide | Data Scientist, Growth Data Products | Berlin | Today | [Apply](https://getyourguide.careers/jobs/7846038?gh_jid=7846038) |
 | LVM Versicherung | Data Scientist (m/w/d) | Münster, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=0821ec16174abfc7) |
 | Zattoo | Big Data Analyst | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=63dc2586f06a87a1) |
 | Zattoo | Big Data Analyst | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=568839c7a249a747) |
@@ -145,7 +148,6 @@
 | GreenStone Energy GmbH | Data Analyst (m/w/d) - Junior to Midlevel | Berlin-Kreuzberg, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=34993e1d4121cb4f) |
 | 🌍 GitLab | Engineering Manager, AI Engineering:Workflow Catalog | Remote, EMEA; Remote, US-So... | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8484753002) |
 | 🌍 GitLab | Senior AI Engineer | Remote, EMEA | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8464072002) |
-| 🚀 N26 | Data Analyst - AFC  | Berlin | 1 day ago | [Apply](https://n26.com/en-eu/careers/positions/7837124?gh_jid=7837124) |
 | DHL | Senior AI Engineer /Tech Lead | Bonn, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=119409b0e6a22ef9) |
 | System Verification | AI Engineer (m/w/d) | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=1ea30e3b1124f3b7) |
 | JD.com | Data Scientist | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=e0a7867b6ba5b1ad) |
@@ -160,6 +162,8 @@
 | Zalando | Senior Applied Scientist - Demand Forecasting (all genders) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6ffb05ffbf21a049) |
 | Booz Allen Hamilton | Data Scientist | Wiesbaden, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a41ba5d24cd9cc9e) |
 | Booz Allen Hamilton | Data Scientist | Wiesbaden, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=75993c5d003d125a) |
+| HYUNDAI MOBIS | Sensor Fusion Deep Learning Engineer (m/f/d) | Eschborn, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5a1f10237d5a65db) |
+| okadis Consulting | Principal Consultant SAP HANA, Business Intelligence & Analytics | Eschborn, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3966d8e01b2c42a8) |
 | XR Solutions AB | Computer Vision Engineer Intern | Home Office, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=c133bf19251031aa) |
 | Front Row Europe GmbH | (SENIOR) BUSINESS INTELLIGENCE ANALYST (F/M/D) | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=2deb7026a283e5f5) |
 | SPORTFIVE | AI Engineer Global IT | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=d4dc135a3b84d2d0) |
@@ -184,10 +188,6 @@
 | Amazon.com | Senior Business Intelligence Engineer, EU Stores CX Analytics & Aut... | Berlin, BE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=f7ee1facdb38a5a3) |
 | Amazon.com | Senior Business Intelligence Engineer, EU Stores CX Analytics & Aut... | Berlin, BE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=90ac9ca2ad7fc215) |
 | CTS EVENTIM AG & Co. KGaA | Senior Akamai Engineer (m/f/d) | Bremen, HB, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=8151bc9545d0b109) |
-| CTS EVENTIM AG & Co. KGaA | Senior Akamai Engineer (m/f/d) | Hamburg, HH, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=4cf4ed00b0bf4914) |
-| CTS EVENTIM AG & Co. KGaA | Senior Akamai Engineer (m/f/d) | Berlin, BE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=95d2288b3a4e42e5) |
-| Atlas Copco Group | Data Analyst | Jena, TH, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=3f79f3f3fbcffb3d) |
-| Getsafe | Analytics Engineer (m/f/d) | Heidelberg, Baden-Württemberg | 4 days ago | [Apply](https://www.linkedin.com/jobs/view/4406127409) |
 
 ## 📊 Data Engineering
 
@@ -252,10 +252,13 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 810 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 823 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| nan | Cloud DevOps Engineer Azure IaC & Security Automation | Home Office, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=bd53f8249c0d12b9) |
+| Elbit Systems Deutschland GmbH &... | IT Systemadministrator - Firewall & Netzwerk (m/w/d) | Ulm, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=bd564665d2030add) |
+| Müller und Sittig GbR | IT Systemadministrator / First Level Support (M/W) | Wiesbaden, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=0d564c9bb36a0685) |
 | operational services | Werkstudent Datenschutz und Informationsrecht (m/w/d) | Frankfurt, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7ce3939489ea1ee4) |
 | fiwa Rechtsanwaltskanzlei | Werkstudentin (m/w/d) im Versicherungsrecht einer Rechtsanwaltskanzlei | Mannheim, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a1a668988c04fe98) |
 | nan | IT-Systemadministrator oder Fachinformatiker (m/w/d) | Auerbach, SN, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9be26100cfc69d86) |
@@ -286,10 +289,13 @@
 | Bertrandt | Senior Embedded Security Engineer (m/f/d) | Würzburg, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9ca6a9b6a68c542e) |
 | Air Apps | DevOps Engineer Mobile | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=12bead6a54e41f65) |
 | Air Apps | DevOps Engineer Backend | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7d4002b0cbdad058) |
+| Peraton | NETWORK ENGINEERING & OPERATIONS | Wiesbaden, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=bb0b125283ff10bd) |
+| Senacor | Werkstudent (m/w/d) im Bereich Legal - Datenschutz & Gesellschaftsr... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=29e1b39f07b5f416) |
 | AWO Bun­des­ver­band e.V. | IT-Systemadministrator*in | Saarbrücken, SL, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=b6cff1f28ca05e09) |
 | Bending Spoons | Security engineer intern | Berlin, Berlin | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4405794521) |
 | Avelios Medical | Working Student DevOps Engineer (all genders) | Munich, Bavaria | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4367456896) |
 | TempSearch GmbH | Senior DevOps Engineer (m/w/d) | Stuttgart, Baden-Württemberg | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4407191379) |
+| Agoda | Identity Security Engineer (Okta & Identity Governance) - Bangkok B... | Cologne, North Rhine-Westph... | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4376306602) |
 | QiTEC GmbH | IT-Systemadministrator | Leipzig, SN, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=6a74b3bd2db3fa95) |
 | Strandresort Markgrafenheide | Aushilfe Strandkorbvermietung & ErlebnisReich (m/w/d) | Rostock, MV, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=4eca5f8b986f132b) |
 | Instaffo | DevOps Engineer (w/m/d) - Google Cloud Platform | Berlin, Berlin | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4394651784) |
@@ -300,21 +306,16 @@
 | ncsolution GmbH | DevOps Engineer (m/w/d) - Gestalte die IT von morgen | Frankfurt, HE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=8d0e54d25ea72e4c) |
 | GeneData | IT DevOps Support Engineer | Munich, BY, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=548ec218e2ac1138) |
 | nan | DevOps IT-Administrator (m/w/d) | Berlin, BE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=b108c11c52db332c) |
-| BASYS Brinova GmbH | IT Security Architect (m/w/d) – Schwerpunkt Sophos Firewalling | DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=d8b00f56078123ee) |
-| Stadtwerke München GmbH | Senior Cyber Security Engineer (m/w/d) | Munich, BY, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=9bf608469ba909f9) |
-| Zettatec Datentechnik GmbH | IT-Systemadministrator (m/w/d) - Fachinformatiker Systemintegration... | Gilching, BY, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=2ee60c4bb350530c) |
-| Stadt Oelde | Netzwerk- und Systemadministrator*in (m/w/d) | Oelde, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=e256a48ea6de31e7) |
-| 8com GmbH & Co. KG | Cyber Security Engineer – CTEM / Vulnerability Management (m/w/d) | Neustadt an der Weinstraße,... | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=0c40085bbf7d54e4) |
-| Honeywell | ICT & Cyber Security Engineer | Offenbach, HE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=17f97a4bc25914ee) |
 
 ## 📋 Product & Management
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1003 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1011 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Trinetix | Delivery Manager | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=03f5ec5548eadf2f) |
 | 🌍 Intercom | Staff AI Product Manager | Berlin | 1 day ago | [Apply](https://job-boards.greenhouse.io/intercom/jobs/7464294) |
 | Applied Materials | Software Program Manager (C++ / Linux / RTOS) - semiconductor industry | Feldkirchen, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=82612ff12628d24c) |
 | IP Pilot | Senior Technical Product Manager in Munich (f/m/d) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7e9660ca0368cdcc) |
@@ -357,23 +358,24 @@
 | DEPARTD | (JUNIOR) TIKTOK PROJECT MANAGER | Berlin-Kreuzberg, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=06e8b492d130cbea) |
 | FLEXICAM FZE | Vertriebsingenieur - Produktmanager CNC-Ausrüstung / FlexiCAM FZE /... | Eibelstadt, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=919564c9805af55c) |
 | Air Apps | AI Product Manager | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=c1318e116aabad9b) |
+| Advantest | Engineering Program Manager (m/f/d) | Böblingen, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6b93c1b91e8e8b91) |
+| Viktor | Founding Growth Product Manager | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7c2840865665bb50) |
+| Viktor | Founding Growth Product Manager | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=c68b530fe5f7e990) |
 | Cloover | Senior Product Manager (on-site) | Berlin, BE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=fe2fe1177d7330b3) |
 | Front Row Europe GmbH | PRODUCT MANAGER (F/M/D) | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=16dfcf03ea92bec0) |
 | Renesas Electronics | Principal Project Manager Semiconductor IC Development (f/m/d) | Munich, Bavaria | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4367170599) |
 | Hengstler-Dynapar | Project Manager – Program Management Office (PMO) | Aldingen, Baden-Württemberg | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4345461906) |
-| DiliTrust | Project Manager | Munich, Bavaria | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4375179856) |
-| Zalando | Senior Principal Product Manager – Partner Experience & AI Platform... | Berlin, BE, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=000e274ff6199528) |
-| Eurogate GmbH & Co. KGaA, KG | Asset Delivery Manager (m/w/d) | Wilhelmshaven, NI, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=5b1cd53abf2e79c0) |
-| valantic | (Junior) Consultant (all genders) Project Manager/ PMO | Dreieich, Hesse | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4337324400) |
 
 ## 🎨 Design & UX
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 272 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 274 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🌍 Intercom | (Senior/Staff/Principle) Product Designer | Berlin | Today | [Apply](https://job-boards.greenhouse.io/intercom/jobs/7371939) |
+| 🚀 GetYourGuide | Senior Product Designer (B2C) | Berlin | Today | [Apply](https://getyourguide.careers/jobs/7559680?gh_jid=7559680) |
 | M-net Telekommunikations GmbH | Grafik / Visual Designer (m/w/d) Fokus KI | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=92112f27758da412) |
 | Pferdesporthaus Loesdau GmbH & C... | Grafiker / Kommunikationsdesigner (m/w/d) in Vollzeit | Bisingen, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a7b082854a021c50) |
 | OzMarketing GmbH | Grafikdesigner (m/w/d) | Belm, NI, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6fb1abfaccd2d310) |
@@ -422,17 +424,21 @@
 | Workwise | Visual Designer - Adobe CC / Figma (m/w/d) | Stuttgart, Baden-Württemberg | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4404950036) |
 | PwC Deutschland | UI/UX-Designer - Public Sector & Energy (w/m/d) | Saarbrücken, Saarland | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4403975775) |
 | PwC Deutschland | UI/UX-Designer - Public Sector & Energy (w/m/d) | Erfurt, Thuringia | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4403980572) |
-| PwC Deutschland | UI/UX-Designer - Public Sector & Energy (w/m/d) | Hanover, Lower Saxony | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4403981635) |
-| EYE SECURITY | Product Designer (m/f/x) | Berlin, BE, DE | 2026-04-21 | [Apply](https://de.indeed.com/viewjob?jk=75f348f2084d0d47) |
 
 ## 💼 Business & Finance
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2878 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2903 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🔥 Continental | Senior Accounting Principles Manager (Focus IFRS) ContiTech (m/f/di... | Eschborn | Today | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123358891) |
+| BayernInvest Kapitalverwaltungsg... | Spezialist (m|w|d) Investment Reporting & Data Management | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=f9e8cc4e957ea5d5) |
+| Parte Verwaltung GmbH | Senior Accountant / Controller (m/w/d) | Hamburg, HH, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=be0d24b6b77487d5) |
+| Flaig+Hommel GmbH Verbindungsele... | Leiter Finanzen und Controlling (m/w/d) | Aldingen, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=1b95e7d9a4ba9a7c) |
+| DEW Immobilienverwaltung GmbH | Senior Accountant / Controller (m/w/d) | Hamburg, HH, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=b302f266248969b4) |
+| MSD | Pharmaberater: In / Pharmareferent: In Impfstoffe (m/w/d) - Gebiet ... | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=7e72c8dffff8e387) |
 | Freie Hansestadt Bremen | Referent/in (w/m/d) Controlling | Bremen, HB, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a37a26a526db88e7) |
 | meetreet UG (haftungsbeschränkt) | Accounting Assistant (m/w/d) | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=92ec0543fdd61514) |
 | 💡 Raisin | Working Student/ Intern Legal - Investment and Pension Products (m/... | Berlin, Berlin | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/raisin/jobs/4851185101) |
@@ -477,21 +483,29 @@
 | ODDO BHF | Junior Business Analyst (m/w/d) | Frankfurt, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=45ae62c14931fe7d) |
 | valantic GmbH | Analyst / Consultant Technology & Transactions (all genders) | Cologne, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=963b48efa47c9ab1) |
 | Consileon | Business Analyst (w/m/d) Automotive & Industry - Mobility Finance | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=49853a937dbcf0b5) |
-| freenet | Business Analyst (w/m/d) – Customer Management (Telekommunikation) | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=99852f69a5bdf60e) |
-| ALK-Abelló | Business Analyst – Finance & Supply Chain | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=fc47cf3198eac540) |
-| McKinsey & Company | Consultant - Public Sector - Orphoz (w/m/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=c64015db4beff3a3) |
-| Peras | EV232 - Inhouse Consultant SAP HCM PA/PY Betrieb (w/m/d) | Karlsruhe, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=b4663e738250078f) |
-| paricon AG | SAP Business Consultant | Rosenheim, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=856c0f65fe82ec09) |
-| paricon AG | Junior Solution Consultant | Rosenheim, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=ce8715d9eff79515) |
 
 ## 📢 Marketing & Sales
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2190 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2241 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🌍 JetBrains | Senior Product Marketing Manager (AIR) | Amsterdam, Netherlands; Ber... | Today | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4826451101) |
+| 🔥 Continental | Key Account Manager Franchise (m/w/d) Region Süddeutschland - Vergö... | Ulm | Today | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123368394) |
+| 🔥 Continental | Key Account Manager Franchise (m/w/d) Region Süddeutschland - Vergö... | Regensburg | Today | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123369309) |
+| AUTO1 Group | Business Development Manager (m/w/d) | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=0fc080b978530746) |
+| Willenbrock GmbH & Co. KG | Online Marketing Manager (m/w/d) | Lingen, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=6fea7fffdfdd8052) |
+| LF CONSULT GmbH | Marketing Manager (m/w/d) | Stuttgart, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=5afe43214bd57548) |
+| Ramboll | Business Development Manager | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=dc8c0478a3a02778) |
+| Ramboll | Business Development Manager | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=ca26b73fbcbc92e2) |
+| Ramboll | Business Development Manager | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=eedcf2ea4bc0b06b) |
+| Ramboll | Business Development Manager | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=cd90473bc8cd7fb2) |
+| Radius | Account Manager - Telematics Dashcams & Tracking (m/w/d) | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=7a36bc3fd16f945a) |
+| simus systems GmbH | Sales-Manager/ Vertriebsingenieur (m/w/d) | Karlsruhe, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=240199195db4bc00) |
+| HRM Institute GmbH & Co.KG | Sales Manager (m/w/d) - für unsere Fachzeitschrift "personal manager" | Mannheim, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=aec3454f12ccd8b1) |
+| nan | Social Media Creator (m/w/d) – Instagram & Video | Cologne, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=de489c67a22e4d70) |
 | SBA Management School der Steinb... | Junior Sales Manager (m/w/d) | Gaggenau, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3f395df9f47036ca) |
 | meetreet UG (haftungsbeschränkt) | Sales Manager (m/w/d) Key Account | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=e531af2158e7dd0c) |
 | Maschinenfabrik NIEHOFF GmbH & C... | Marketing Manager und Technisches Marketing (m/w/d) | Schwabach, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a15798970af11d30) |
@@ -528,26 +542,12 @@
 | nan | Social Media-Content-Creater (M/W/D) | Cologne, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3320373bcd96595f) |
 | Carisma GmbH | Studentische Aushilfskraft im Bereich Marketing & Kommunikation mit... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=ded323c768b30ef9) |
 | 🌍 GitLab | Business Development Representative - Nordics | Remote, Germany; Remote, Ir... | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8472427002) |
-| 🌍 GitLab | Senior Regional Marketing Manager, EMEA | Remote, EMEA | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8453504002) |
-| 🌍 GitLab | Customer Success Engineer, EMEA | Remote, Germany; Remote, Ir... | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8476852002) |
-| 🌍 GitLab | Customer Success Manager, DACH | Remote | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8452256002) |
-| 🌍 GitLab | Business Development Representative, German Speaking | Remote, Germany; Remote, Ir... | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8472287002) |
-| 🌍 GitLab | Ecosystem Sales Manager, Alps  | Remote | 1 day ago | [Apply](https://job-boards.greenhouse.io/gitlab/jobs/8418604002) |
-| 🔥 Continental | Key Account Manager Franchise (m/w/d) Region Süddeutschland - Vergö... | Munich | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123236311) |
-| Mews | Customer Success Manager - German (m/f/d) | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3382ed4bae395f07) |
-| Leica Microsystems | Key Account Manager Biopharma (d/f/m) | Frankfurt, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=b1a7bc25206602a0) |
-| BILD | (Senior) Business Development Manager – Video (m/w/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=e14ff2a31cb14b0c) |
-| Hype Innovation | Product Marketing Manager (m/f/d) | Bonn, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=1f651927232e0489) |
-| VALIANTYS | Account Manager (f/m/d) | Home Office, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9b223f9a38217f44) |
-| MainMatch | Freelancer:in Social Media Management (m/w/d) – 100% Remote | Home Office, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9d4d6ea3d44436e4) |
-| Ströer SE & Co. KGaA | Senior Campaign / Performance Marketing Manager (Native Advertising... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=853f37258025de73) |
-| fairfamily | Senior Performance Marketing Manager (m/w/d) | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=34dbbc5d47660544) |
 
 ## 👥 HR & Recruiting
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 986 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 988 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -559,6 +559,7 @@
 | wolt | Senior Talent Acquisition Partner (G&A) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=c3c2d1b25042d1c4) |
 | valantic GmbH | Werkstudent (all genders) Recruiting / Talent Acquisition | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5ed94511a7f501d9) |
 | HUGO BOSS | Internship IT Human Resources (m/f/d) | Metzingen, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8637b30e2a10a36e) |
+| Amplifon | Corporate and EMEA Talent Acquisition Specialist | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=5b63ebc82b32ca4b) |
 | vivenu GmbH | Global People Operations Manager (w/m/d) | Düsseldorf, NW, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=a2d9a39464f01af1) |
 | SAP | Working Student (f/m/d) - People Operations & Project Management @ ... | Walldorf, BW, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=14db2bb174b5b966) |
 | SAP | Werkstudent (w/m/d) - People Operations & Project Management @ SAP CTO | Walldorf, BW, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=1f563fe426835f94) |
@@ -573,6 +574,7 @@
 | Focused | Human Resources Business Partner - HRBP | Darmstadt, HE, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=9bf8ee6267ea3414) |
 | DHL | Global Functions Talent Acquisition Intern (m/f/x) | Bonn, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=59b98c877027f459) |
 | DHL Supply Chain | Global Functions Talent Acquisition Intern (m/f/x) | Bonn, North Rhine-Westphalia | 4 days ago | [Apply](https://www.linkedin.com/jobs/view/4405385614) |
+| Amazon.com | HR Manager, EU PXT | Großenkneten, NI, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=53044b0926a7915a) |
 | UnyBrands | Talent Acquisition and HR Coordinator | Berlin, BE, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=7a8aa028f78d983b) |
 | nan | Working Student Human Resources (f/m/d) | Dresden, SN, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=686851530b11531f) |
 | nan | Werkstudent/-in Human Resources (w/m/d) | Dresden, SN, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=969a544378dfea01) |
@@ -599,14 +601,12 @@
 | TEACHY Upskilling | StartUp Praktikum HR & People Operations (m/w/d) - Homeoffice, Star... | Germany | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4402476319) |
 | Tesla | Early Career / Future Talent Recruiter - German Speaker (m/w/d) - G... | Grünheide, Brandenburg | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4405447167) |
 | Comet | Talent Acquisition Manager | Aachen, NW, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=e7329a0e1aa5e90c) |
-| Franz Xaver Meiller Fahrzeug- un... | Werkstudent (m/w/d) im Bereich Human Resources | Munich, BY, DE | 2026-04-21 | [Apply](https://de.indeed.com/viewjob?jk=5fe5ead30310495b) |
-| DHL | Praktikum Bereich Human Resources (m/w/d) | Cologne, NW, DE | 2026-04-21 | [Apply](https://de.indeed.com/viewjob?jk=8f5b8f62a87cc3dc) |
 
 ## 🔬 Research & Science
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 152 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 153 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -637,6 +637,7 @@
 | Bosch | PhD - Cross-Domain Hyperspectral Anomaly Detection for Manufacturin... | Renningen, BW, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=e2231baefa0656f3) |
 | nan | Wissenschaftlicher Mitarbeiter (w/m/d) für industrielle KI-Anwendun... | Ansbach, BY, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=55b41d817d950fb7) |
 | Bosch | PhD - Cross-Domain Hyperspectral Anomaly Detection for Manufacturin... | Renningen, BW, DE | 5 days ago | [Apply](https://de.indeed.com/viewjob?jk=7ed7478ca48d044c) |
+| sensmore | PhD Research Internship – Robotics Engineer (VLM / VLA Models) | Potsdam, Brandenburg | 5 days ago | [Apply](https://www.linkedin.com/jobs/view/4405686013) |
 | Universität Bremen | Wissenschaftliche:r Mitarbeiter:in (Postdoc) (w/m/d) am Zentrum für... | Bremen, HB, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=7d58b4263ce5083f) |
 | Freie Hansestadt Bremen | Wissenschaftliche:r Mitarbeiter:in (Postdoc) (w/m/d) am Zentrum für... | Bremen, HB, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=13954563719e9c9f) |
 | Johnson & Johnson | Postdoctoral Scientist Data Science AI/ML & DH | Neuss, NW, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=d2a8453ede65b392) |
@@ -659,16 +660,30 @@
 | Universität Freiburg | PhD position (m/f/d) - Chemistry and Physics of Interface (CPI) - U... | Freiburg, BW, DE | 2026-04-20 | [Apply](https://de.indeed.com/viewjob?jk=ae2eabed8a0b1100) |
 | nan | PhD Stipend (m/f/d) — Private Higher Education in Europe | Bremen, HB, DE | 2026-04-20 | [Apply](https://de.indeed.com/viewjob?jk=97955c054be4fcf1) |
 | Deutsches Promotionszentrum | Wissenschaftlicher Mitarbeiter Projektleiter/Kundensupport (m/w/d) | Bonn, NW, DE | 2026-04-20 | [Apply](https://de.indeed.com/viewjob?jk=5c205edecd187468) |
-| Universität Bayreuth | Wissenschaftlicher Mitarbeiter / Doktorand (m/w/d) in der Material-... | Bayreuth, BY, DE | 2026-04-20 | [Apply](https://de.indeed.com/viewjob?jk=68153d0085d75cf9) |
 
 ## 🎓 Werkstudent & Internship
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4868 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4916 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🔥 Continental | Pflichtpraktikum - Produktmanagement Automotive - REF96583W | Hanover | Today | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123365569) |
+| Knorr-Bremse | Werkstudent im Bereich Transportation, ESG and Warehousing (m/w/d) | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=614b21bd073d7118) |
+| Wissensfabrik - Unternehmen für ... | Werkstudent*in Bildung | Ludwigshafen am Rhein, RP, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=378f7728251716e0) |
+| BayernInvest Kapitalverwaltungsg... | Werkstudent (m|w|d) Fund Administration | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=c46ef373d2e384a5) |
+| E. Breuninger GmbH & Co. | Werkstudent:in – User Experience Research// Remote möglich | Stuttgart, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=0e71c449b5a5c965) |
+| Bosch | Werkstudent im Change Management und Training (w/m/div.) | Stuttgart Feuerbach, BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=13060574ff6d3270) |
+| SIR Industrial Services GmbH | Werkstudent/in (m/w/d) in der Stahlindustrie | Wetzlar, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=131aa9928a5c6c30) |
+| ZETCON Ingenieure GmbH | Werkstudent (m/w/d) Architektur | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=d6d4033910c086cd) |
+| ZETCON Ingenieure GmbH | Werkstudent / Praktikant (m/w/d) Bauingenieurwesen | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=ca1418d5b82b347e) |
+| Allianz | Werkstudent im Bereich Rechtsschutz Schaden (m/w/d) | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=871370cbcbf4b2e0) |
+| Stadtwerke Wolfsburg AG | Schülerpraktikum - technischer Bereich | Wolfsburg, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=cf4a2c5cce9b53bd) |
+| HELLA | PRAKTIKUM/ABSCHLUSSARBEIT: ANALYSEFRAMEWORK ZUR ÄHNLICHKEITSANALYSE... | Lippstadt, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=529a17cb3e3513d9) |
+| Turn-Klubb zu Hannover | Praktikant*in (m/w/d) für die Geschäftsstelle | Hanover, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=66f31ee659ac1bd5) |
+| Ministerium für Verkehr Baden-Wü... | Praktikum - Einblick ins Ministerium | BW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=30542d65881f6568) |
+| AMAZONE | Praktikum / Abschlussarbeit im Bereich Simulation / Messtechnik (m/... | Hasbergen, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=eb2a9c3b65756583) |
 | 🔥 Continental | Country Tax Manager - International Tax (m/f/d) - REF95977K | Hanover | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123126875) |
 | 🔥 Continental | Pflichtpraktikum - Projektmanagement / Program Management Functions... | Hanover | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123118960) |
 | Siemens Healthineers | Working Student (f/m/d) for AI-related Content Creation | Erlangen, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=89dab07d27d9d134) |
@@ -704,30 +719,17 @@
 | Mercedes-Benz Group | Working Student at Global Insurance Retail | Stuttgart, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=be38b8d8268f99e2) |
 | Mercedes-Benz Group | Werkstudent Logistik und KI (d/m/w/x) | Stuttgart, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5f81fe75736ea1da) |
 | Mercedes-Benz Group | Werkstudent Logistik und KI (d/m/w/x) | Böblingen, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=22b1959f34cfb51c) |
-| Cloumo GmbH | Werkstudent IT-Support (m/w/d) | Cologne, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=ad70509094dce44e) |
-| ALDI | Werkstudent im Verkauf in Langenhorn, Fuhlsbüttel, Winterhude, Barm... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3ad5a67d60d23ef3) |
-| ALDI | Werkstudent im Verkauf in Rahlstedt, Billstedt, Wandsbek, Farmsen, ... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=817fd63d4c5c1784) |
-| ALDI | Werkstudent im Verkauf in Schnelsen, Niendorf, Stellingen, Eimsbütt... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8486e3c7741cdb0a) |
-| ALDI | Werkstudent HR Services & Payroll - ALDI Deutschland Stiftung (m/w/d) | Essen, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=1058bf719db8411d) |
-| ALDI | Werkstudent im Verkauf in Halstenbek, Ellerbek, Bönningstedt, Schen... | Halstenbek, SH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=0f3049aa1ca24dd6) |
-| ALDI | Werkstudent im Verkauf Kreis Stormarn - in Teilzeit - unbefristet (... | Ahrensburg, SH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6d17746ce1b00804) |
-| ALDI | Werkstudent im Verkauf in Volksdorf, Sasel, Hummelsbüttel - in Teil... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7aab663cd2666e8f) |
-| ALDI | Werkstudent im Verkauf in Schwarzenbek,Glinde,Oststeinbek,Büchen,Ra... | Schwarzenbek, SH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=05b72e02dfbd20cb) |
-| ALDI | Werkstudent im Verkauf in Norderstedt, Henstedt-Ulzburg, Tangstedt,... | Norderstedt, SH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=4ffbbdf939cb742a) |
-| Materion | Werkstudent Technologie & Innovation (m/w/d) Schwerpunkt Materialen... | Alzenau in Unterfranken, BY... | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a12bf5fa19b1e4fd) |
-| Volvo Group | Werkstudent (m/w/d) administrativer Bereich | Ismaning, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=39a3747fce37a11d) |
-| SAP | Working Student (f/m/d) - Support for SAP Basis System Administration | Sankt Leon-Rot, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=62d84ffdd94581cf) |
-| fiwa Rechtsanwaltskanzlei | Werkstudent (m/w/d) Rechtsanwaltskanzlei | Mannheim, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=bd9e71f9b15549c7) |
-| Philipp Kirsch GmbH | Werkstudent (m/w/d) Lean Management | Willstätt, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=dd064ab355216d42) |
 
 ## 🎒 Trainee & Ausbildung
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 708 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 717 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| cn-mobility GmbH | Ausbildung zum Fachinformatiker für Systemintegration (m/w/d) | Mittenaar, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=39f801d0896f3429) |
+| Thomas Magnete GmbH | Auszubildender als Fachinformatiker für Systemintegration (m/w) 2027 | Herdorf, RP, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=b561f1c34ce00da6) |
 | nan | Geschützt: Ausbildung – Fachinformatiker Anwendungsentwicklung | Donauwörth, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=389fb373c1ea644f) |
 | nan | Ausbildung: Fachinformatiker für Systemintegration (m/w/d), ab 1. A... | Gießen, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=0865c369955286b9) |
 | CompuTerra Hard- und Software GmbH | Ausbildung zum Fachinformatiker Anwendungsentwicklung (m/w/d) | Wiesbaden, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5284f983b30cc288) |
@@ -747,12 +749,16 @@
 | Arbeitgeber Land Hessen | Ausbildung zur Fachinformatikerin zum Fachinformatiker (w/m/d) | Kassel, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=091441ec5e1ddd67) |
 | nan | Ausbildung Fachinformatiker/in Fachrichtung Systemintegration | Ludwigshafen am Rhein, RP, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8fe2a348bcc4e420) |
 | Arbeitgeber Land Hessen | Duales Studium DV Inspektoranwärterin und Inspektoranwärter (w/m/d) | Kassel, HE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=677fe99ad0f03e24) |
+| ReachLab GmbH | Trainee Digital Analytics (m/w/d) | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=465f4925ac06993d) |
+| nan | Duales Studium - Bachelor of Arts (m/w/d) Studiengang Betriebswirts... | Floh-Seligenthal, TH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=4546fe86c2d91334) |
+| nan | Duales Studium - Bachelor of Engineering (m/w/d) Studiengang Engine... | Floh-Seligenthal, TH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9b1834fdbcb56751) |
 | Private Universität Witten/Herdecke | Ausbildung zur/zum Zahnmedizinischen Fachangestellten (w/m/d) | Witten, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=0affaeb2d18c48e5) |
 | DOMICIL Senioren-Residenzen Hamburg | Ausbildung zur Pflegefachkraft (m/w/d) - Kempten | Kempten (Allgäu), BY, DE | 3 days ago | [Apply](https://de.indeed.com/viewjob?jk=a01a5f9bd09ac34e) |
 | FIS Informationssysteme und Cons... | Duales Studium Wirtschaftsinformatik (B.Sc.) – Start 2027 | Grafenrheinfeld, Bavaria | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4397593933) |
 | Physikalisch-Technische Bundesan... | Duales Studium: Elektro- und Informationstechnik im Praxisverbund (... | Brunswick, Lower Saxony | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4404192028) |
 | HypoVereinsbank - UniCredit - De... | Trainee Corporate Banking (m/w/d) - UniCredit Graduate Program | Stuttgart, Baden-Württemberg | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4405758972) |
 | Einhell Germany AG | Ausbildung - Kaufleute im E-Commerce (m/w/d) - 01.09.2026 | Landau, Bavaria | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4404196151) |
+| MAIT for business | Duales Studium Wirtschaftsinformatik 2026 (w/m/d) | Bochum, North Rhine-Westphalia | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4404185229) |
 | HMC Systemhaus OHG | Ausbildung zum Fachinformatiker Systemintegration (m/w/d) | Lippstadt, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=1509e2ba8a6b9bca) |
 | cbs Corporate Business Solutions | Trainee Consulting Digitalisierung – Human Resource Management (m/w/d) | Heidelberg, BW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=c6790f1fdeeb7d44) |
 | cbs Corporate Business Solutions | Trainee Consulting Digitalisierung – Human Resource Management (m/w/d) | Cologne, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=97ae33c288e7903f) |
@@ -772,12 +778,6 @@
 | IT Nunweiler | Ausbildung Fachinformatiker für Systemintegration (m/w/d) Start 2026 | Hanover, NI, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=b59d53814c31f94b) |
 | Schwarz Corporate Solutions | Ausbildung zum Kaufmann für Digitalisierungsmanagement 2026 (m/w/d)... | Neckarsulm, BW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=a33d3f2cfab17b06) |
 | HELLER Maschinenfabrik GmbH | Duales Studium - Informatik, Informationstechnik (B.Sc.) (m/w/d) 2027 | Nürtingen, BW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=ed57d9b88909db6f) |
-| UniCredit Group | Trainee Corporate Banking (m/w/d) - UniCredit Graduate Program | Stuttgart, BW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=3b715c7d280991c6) |
-| nan | Recreation Aid (Trainee-Lifeguard) NF-01 | Baumholder, RP, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=aad6a3c1b62a8bab) |
-| HOCHTIEF | Kaufmännischer Trainee (m/w/d) Projektgeschäft für Industrie- und I... | Cologne, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=27eeb3610ea6f5c7) |
-| HOCHTIEF | Kaufmännischer Trainee (m/w/d) Projektgeschäft für Industrie- und I... | Cologne, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=2544d6ae59b0fa1e) |
-| SMF GmbH | Ausbildung Fachinformatiker*in für Daten- und Prozessanalyse (w/m/d) | Dortmund, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=00cc32a3b6676644) |
-| microPLAN IT-Systemhaus GmbH | Ausbildung zum Fachinformatiker für Systemintegration (m/w/d) | Hamm, NW, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=8252a5b183ec1946) |
 
 ## 🔧 Hardware Engineering
 
@@ -810,15 +810,50 @@
 | 🔥 Continental | Mechatroniker (m/w/d) - REF86271H | Hanover | 2025-11-14 | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000093695535) |
 | 🔥 Continental | Mechatroniker (m/w/d) - REF86262R  | Hanover | 2025-11-14 | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000093694225) |
 | 🔥 Continental | Mechatroniker Instandhaltung (m/w/d) - REF74776G | Korbach | 2025-03-12 | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000047302355) |
+| IPETRONIK India Private Limited | DHBW-Student Elektrotechnik / DHBW-Student electrical engineering | Baden-Baden, Baden-Württemberg | — | [Apply](https://www.linkedin.com/jobs/view/4407802331) |
 
 ## 💼 Other
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 6569 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 6645 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| 🚀 GetYourGuide | Senior AI Enablement Engineer | Berlin | Today | [Apply](https://getyourguide.careers/jobs/7738772?gh_jid=7738772) |
+| 💡 Raisin | Engineering Lead - Client Bank Solutions (m/f/d) | Berlin, Berlin | Today | [Apply](https://job-boards.eu.greenhouse.io/raisin/jobs/4845743101) |
+| 🔥 Continental | CORRESPONDANT(E) COMMERCIAL(E) - F/H/N - CDD  | Lacroix-Saint-Ouen | Today | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123360512) |
+| Zalando | Engineering Manager - AI Innovation // Lounge by Zalando (all genders) | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=d82088e4e99cf14e) |
+| Tesla | Electronic Systems Architecture & Integration Engineer (m/w/d) Berl... | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=41e825eb70e2bf39) |
+| Ordix AG | System Integration Engineer (w/m/d) - Senior Linux-Expert:in | Cologne, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=5adb9078aca4d8b8) |
+| Ordix AG | System Integration Engineer (w/m/d) - Senior Linux-Expert:in | Nuremberg, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=ebd318e5bace87fa) |
+| Ordix AG | System Integration Engineer (w/m/d) - Senior Linux-Expert:in | Augsburg, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=39a82730fda8bfe1) |
+| Ordix AG | System Integration Engineer (w/m/d) - Senior Linux-Expert:in | Paderborn, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=e9befe3c31a7a06e) |
+| Ordix AG | System Integration Engineer (w/m/d) - Senior Linux-Expert:in | Wiesbaden, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=8e19cab8805992c1) |
+| Alpaca | Tax Manager - Product & Operations | Berlin, BE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=59183da019db3986) |
+| Karo Healthcare | Head of Transformation Initiatives & Delivery | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=e0b58325d43fef6e) |
+| Coinstar | Clinical Research Associate II / Senior Clinical Research (CRA) (m/... | DE | Today | [Apply](https://de.indeed.com/viewjob?jk=2d89e7a86fdbf865) |
+| MACCON Elektroniksysteme GmbH | Sachbearbeiter (m/w/d) Auftragsabwicklung | Munich, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=5e8fa1785584d079) |
+| OST BAU | Abrechner (gn) für Betonsanierung und Instandhaltung | Magdeburg, ST, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=fb3b75ea74bd5afb) |
+| Ammerländer Versicherung | Mitarbeiter (m/w/d) Rechnungswesen | Westerstede, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=df29e75e05eb0414) |
+| Karo Healthcare | Senior Brand Manager DACH | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=3287238dbffd98e0) |
+| Deutsche Glasfaser | Commercial Operations Manager Wholesale (w/m/d) | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=99374852ddde6171) |
+| Ohne Barrieren Wohnen und Sozial... | Aushilfe Servicekraft (m/w/d) | Rostock, MV, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=c109ccf5678aa6d1) |
+| Katzentempel GmbH | Mitarbeitende (m/w/d) für die Küche | Trier, RP, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=9e86c16b3121ebf5) |
+| KERRES Catering GmbH | Aushilfen auf Events Stundenten Wochenende Catering Kellner Baarkeeper | Aachen, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=1160f7c9006ad405) |
+| Turn-Klubb zu Hannover | Pädagogische Fachkräfte (m/w/d) im Ganztag der Grundschule Kronsberg | Hanover, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=c18cc85866c1a0d4) |
+| Turn-Klubb zu Hannover | Pädagogische Fachkräfte (m/w/d) im Ganztag für die Fridtjof Nansen ... | Hanover, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=6824fb5048fb98f8) |
+| Turn-Klubb zu Hannover | Pädagogische Fachkräfte (m/w/d) im Ganztag für die Heinrich-Wilhelm... | Hanover, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=2b87896ce9688417) |
+| Physiotherapie Chammaa | PHYSIOTHERAPEUT/IN (M/W/D) und/oder PRAKTIKA | Leipzig, SN, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=c4453a18a99fde4c) |
+| VTIS GmbH | Techniker im Bereich Helpdesk und Staging (m/w/d) | Dortmund, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=53f6bdfffafa1ff4) |
+| msg | First Level Support / Banking (all genders) zum 01.09.2026 | Nuremberg, BY, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=2e4bf85f25e829db) |
+| nan | IT-Supporter*in im Fachbereich Service Desk & User Support | Hamburg, HH, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=4a9dba7beb2db5bd) |
+| KNAUF INTERFER SE | Fachinformatiker für Systemintegration (m/w/d) | Ense, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=8b3d397c193ad2b2) |
+| Stadt Dortmund | Fachkoordinator*in (m/w/d) „Bereitstellung & Betrieb“ | Dortmund, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=25b073568c9ac673) |
+| Universität Kassel | IT-Architekt DMS und Entwickler (m/w/d), EG 13 TV-H, im IT-Servicez... | Kassel, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=c366e0428da452b9) |
+| Alloheim Gruppe | Pflegehelfer (m/w/d) | Leipzig, SN, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=36c061db613407c5) |
+| Alloheim Gruppe | Pflegefachassistenz (m/w/d) | Eschweiler, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=2613659bfcf83797) |
+| nan | Physiotherapeuten (m/w) in Voll- oder Teilzeit | Vechelde, NI, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=73ebe59eb4d382a5) |
 | Quanos Service Solutions GmbH | Account Executive (m/w/d) SaaS-B2B New Business | Nuremberg, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a80f4d7b5974db7f) |
 | WaCo Gerätetechnik GmbH | Sachbearbeiter Rechnungswesen (m/w/d) | Dresden, SN, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9405392be93b29fe) |
 | freiraum. GmbH | Anpacker für unsere Leuchten-Schmiede gesucht (m/w/d) | Groß Görnow, MV, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7500ef42bb032ab0) |
@@ -835,41 +870,7 @@
 | 🌍 Databricks | Data & AI Platform Architect (Professional Services) | Remote - Denmark | 1 day ago | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8521090002) |
 | 🌍 Wolt | Senior Manager, Global Deals (DoorDash intl.) | Berlin, Germany; Helsinki, ... | 1 day ago | [Apply](https://job-boards.greenhouse.io/wolt/jobs/7856619) |
 | 🔥 Continental | Spezialist Arbeitssicherheit & Gefahrstoffmanagement (m/w/d) -  REF... | Hanover | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123177749) |
-| 🔥 Continental | Bachelor Wirtschaftsingenieurwesen (m/w/d) - Tires | Hanover | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000123158222) |
-| Valentum Engineering GmbH | Linux Platform & Container Engineer* Secure Linux Platform Infrastr... | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8d5b1588b7eee4fa) |
-| Qdrant | Benchmark Engineer | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6f27a95b6278bc1e) |
-| ERNI Schweiz AG | Data & AI Solution Engineer (m/w/d) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=bb6cd867b6d42259) |
-| ERNI Schweiz AG | Data & AI Solution Architect (m/w/d) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6742020d13789a31) |
-| Cloudflare | Principal Solutions Architect | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=916909789c152b4b) |
-| Bundesagentur für Arbeit | Specialist System-Engineer (w/m/d) - Security | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=37a9308a251dd28a) |
-| Cellebrite | Deployment Engineer, EMEA | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=137164f13dabd6b7) |
-| MONDAY.ROCKS GmbH | Senior Product Engineer AI (m/w/d) | Düsseldorf, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=0c025e8f4bb3a451) |
-| Roche | Information Scientist / Clinical Data Curator (w/m/d) | Penzberg, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=eedc1cc1e72ed7d0) |
-| AbbVie | Scientist I/II – HPLC Characterisation of Monoclonal Antibodies (al... | Ludwigshafen am Rhein, RP, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=40313707f55370df) |
-| AbbVie | Scientist I/II – HPLC Characterisation of Monoclonal Antibodies (al... | Ludwigshafen am Rhein, RP, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a963829734596f79) |
-| PHOTOROOM | Contract FastAPI Engineer (3/6 months) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=e01afce266759e88) |
-| dotfly GmbH | TYPO3-Entwickler (w/m/d) | Home Office, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=633d59ca071cded8) |
-| Wemolo | Senior Analytics Partner - Operations (all genders) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=b5794eb39a192937) |
-| Minimax GmbH | OT Service Engineer, OT Manager - Operational Technology (m/w/d) | Bad Oldesloe, SH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=13627b057af70717) |
-| NetApp | Senior Client Executive - NeoCloud | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=d73247b8b72ec87c) |
-| nan | Senior RF Development Engineer(m/w/d) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7c67cb13a367527b) |
-| Giesecke+Devrient | Manager Secure Software and Product Development (m/w/d) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=0d9cd2721a00958b) |
-| Speexx | HR Business Partner (m/f/d) - Munich | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6d0e0b59b564bf5c) |
-| Qdrant | Senior FinOps & Cloud Analyst | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=ebc3ff9218fd2d38) |
-| Qdrant | Cloud Infrastructure Cost Analyst (FinOps) | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8b0a1855ff746d75) |
-| Qdrant | Cloud Infrastructure Cost Analyst (FinOps) | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=88d6367ffbc08ea2) |
-| Qdrant | Senior FinOps & Cloud Analyst | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6ef228bff0521c34) |
-| Faerch Group | Sales and go to market Analyst | Düsseldorf, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a9dbd1f86ecfb430) |
-| Apleona | Mitarbeiter Veranstaltungsmanagement (w/m/d) | Ludwigshafen am Rhein, RP, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3974173c4f18253a) |
-| Revolut | Deputy Money Laundering Reporting Officer | Home Office, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=584c0792aa4b8f88) |
-| netshake GmbH | (Junior) E-Commerce Manager (w/m/d) | Home Office, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=f796e4059bc3fada) |
-| SAP | Delos Cloud Senior Partner Manager (f/m/d) SI - Sovereign Cloud Ger... | Walldorf, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=1119bd907efe4f19) |
-| SAP | Delos Cloud Senior Partner Manager (f/m/d) SI - Sovereign Cloud Ger... | Walldorf, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=8dfa26b6abd775c7) |
-| Enpal | Growth Development Manager:in - Marketing (w/m/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=86f048f072d6cd43) |
-| Enpal | Growth Development Manager:in in AI Performance Marketing (w/m/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5b598b1df3d01f6a) |
-| Watts Water Technologies | Sales Leader DACH (m/w/d) | Landau in der Pfalz, RP, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=7ed2641f2bc87af0) |
-| FINN | Team Lead Employee Sales (m/w/x) | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9bc8d1b22d4f9153) |
 
 ---
 
-*Last updated: 2026-04-28 02:06 UTC • Total: 24180 jobs across 6865 companies*
+*Last updated: 2026-04-28 08:21 UTC • Total: 24464 jobs across 6936 companies*
