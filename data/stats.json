@@ -1,23 +1,23 @@
 {
-  "total_jobs": 64888,
-  "visa_friendly": 7530,
-  "english_friendly": 820,
-  "companies_tracked": 14577,
+  "total_jobs": 65178,
+  "visa_friendly": 7533,
+  "english_friendly": 823,
+  "companies_tracked": 14639,
   "categories": {
-    "Infrastructure & SRE": 2231,
-    "Other": 18246,
-    "Marketing & Sales": 6289,
-    "Software Engineering": 6287,
-    "Data Science & ML": 2231,
-    "Design & UX": 663,
-    "Trainee & Ausbildung": 1883,
-    "Business & Finance": 7685,
-    "Product & Management": 2474,
-    "Werkstudent & Internship": 12730,
-    "Data Engineering": 745,
+    "Infrastructure & SRE": 2239,
+    "Other": 18320,
+    "Software Engineering": 6334,
+    "Product & Management": 2488,
+    "Design & UX": 672,
+    "Marketing & Sales": 6321,
+    "Business & Finance": 7713,
+    "Werkstudent & Internship": 12780,
+    "Data Science & ML": 2243,
+    "Trainee & Ausbildung": 1894,
+    "Data Engineering": 749,
     "Hardware Engineering": 76,
     "HR & Recruiting": 2944,
-    "Research & Science": 404
+    "Research & Science": 405
   },
-  "last_updated": "2026-05-21 02:20 UTC"
+  "last_updated": "2026-05-21 09:11 UTC"
 }
