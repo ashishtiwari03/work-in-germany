@@ -1,12 +1,12 @@
 # 🇩🇪 Work in Germany — Automated Job Board
 
-![Jobs](https://img.shields.io/badge/jobs-102438-blue)
+![Jobs](https://img.shields.io/badge/jobs-102499-blue)
 ![Visa Friendly](https://img.shields.io/badge/visa%20friendly-2233-green)
-![English OK](https://img.shields.io/badge/english%20OK-1382-orange)
-![Companies](https://img.shields.io/badge/companies-22969-purple)
+![English OK](https://img.shields.io/badge/english%20OK-1385-orange)
+![Companies](https://img.shields.io/badge/companies-22976-purple)
 ![Updated](https://img.shields.io/badge/updated-every%206%20hours-success)
 
-> **Fully automated** list of tech jobs in Germany, scraped from **22969 company career pages** and updated every 6 hours.
+> **Fully automated** list of tech jobs in Germany, scraped from **22976 company career pages** and updated every 6 hours.
 
 > 🔄 Unlike manual lists, this repo uses **100+ company APIs** (Greenhouse, Lever) and updates automatically via GitHub Actions.
 > Every listing is tagged with language requirements and visa sponsorship status.
@@ -17,33 +17,33 @@
 
 ## 📂 Browse Jobs by Category
 
-💻 [Software Engineering](#-software-engineering) (10399)
+💻 [Software Engineering](#-software-engineering) (10408)
 
-🤖 [Data Science & ML](#-data-science--ml) (2970)
+🤖 [Data Science & ML](#-data-science--ml) (2975)
 
-📊 [Data Engineering](#-data-engineering) (1458)
+📊 [Data Engineering](#-data-engineering) (1459)
 
-🏗️ [Infrastructure & SRE](#-infrastructure--sre) (4123)
+🏗️ [Infrastructure & SRE](#-infrastructure--sre) (4124)
 
-📋 [Product & Management](#-product--management) (4889)
+📋 [Product & Management](#-product--management) (4896)
 
 🎨 [Design & UX](#-design--ux) (1202)
 
-💼 [Business & Finance](#-business--finance) (13711)
+💼 [Business & Finance](#-business--finance) (13722)
 
-📢 [Marketing & Sales](#-marketing--sales) (10702)
+📢 [Marketing & Sales](#-marketing--sales) (10706)
 
 👥 [HR & Recruiting](#-hr--recruiting) (452)
 
 🔬 [Research & Science](#-research--science) (780)
 
-🎓 [Werkstudent & Internship](#-werkstudent--internship) (18412)
+🎓 [Werkstudent & Internship](#-werkstudent--internship) (18421)
 
-🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (3950)
+🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (3953)
 
 🔧 [Hardware Engineering](#-hardware-engineering) (161)
 
-💼 [Other](#-other) (29229)
+💼 [Other](#-other) (29240)
 
 ---
 
@@ -75,7 +75,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 10399 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 10408 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -134,7 +134,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2970 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2975 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -165,6 +165,8 @@
 | DOMICIL Senioren-Residenzen Hamburg | Data Analyst Controlling (m/w/d) mit Schwerpunkt Reporting und Auto... | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=d86af485e380049e) |
 | fairfamily | AI Data Analyst (m/w/d) – Data Warehouse, Analytics & Controlling | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9fabcd09b2d346be) |
 | Charité - Universitätsmedizin Be... | Data Scientist (d/w/m) Institut für KI in der Medizin | Berlin, Berlin | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4450618107) |
+| Uzuner Systems | Data Analytics Engineer (m/w/d) | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=1ae24cdb72c7564c) |
+| YOYABA GmbH | (Senior) SEO AI Engineer (m/f/d) | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=f14241f4607ca8f2) |
 | 🚀 N26 | Senior Analytics Engineer | Berlin | 2 days ago | [Apply](https://n26.com/en-eu/careers/positions/7771701?gh_jid=7771701) |
 | 🚀 N26 | Senior Marketing Data Analyst - Marketing Mix Modelling | Berlin | 2 days ago | [Apply](https://n26.com/en-eu/careers/positions/8105040?gh_jid=8105040) |
 | 🚀 N26 | Principal AI Engineer - Conversational Banking | Berlin | 2 days ago | [Apply](https://n26.com/en-eu/careers/positions/8020406?gh_jid=8020406) |
@@ -186,14 +188,12 @@
 | Wolters Kluwer | Senior AI Engineer (Libra - Legal AI Assistant) (m/f/d) | Berlin, BE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=c6de750d6b65adf6) |
 | Alexander Thamm GmbH | Senior Generative AI Engineer (m/w/d) - Austria | Frankfurt, HE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=ab63a996169b58af) |
 | Alexander Thamm GmbH | Senior Data Scientist (m/w/d) - Chemical Engineering & Verfahrenste... | Frankfurt, HE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=4e835e2cc6a8a5a0) |
-| PMX GmbH | Data Analyst (m/w/d) | Böblingen, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=453f82661c8f8fa2) |
-| Electronic Arts | Data Analyst - EA SPORTS FC | Cologne, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=d22b1a95a1f477dc) |
 
 ## 📊 Data Engineering
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1458 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1459 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -252,7 +252,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4123 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4124 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -311,7 +311,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4889 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4896 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -429,7 +429,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 13711 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 13722 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -488,7 +488,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 10702 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 10706 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -665,7 +665,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 18412 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 18421 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -724,7 +724,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 3950 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 3953 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -842,10 +842,13 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 29229 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 29240 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| MUFG | KYC Officer | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=fa879075fd1d572f) |
+| MUFG | JCBD Front Assistant | Düsseldorf, NW, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=b1bbe52fc4da268e) |
+| Lurosa Studios Ltd. | Deutscher Chat Sales Agent (m/w/d) | Home Office, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=3020076629b73fc0) |
 | ABB | Global Product Cyber Security Expert – R&D Digital Portfolio EM&AO | Mannheim, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=fe625f2188695323) |
 | MobilityPro | Fahrzeugüberführer / PKW-Überführer (m/w/d) | Bergisch Gladbach, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=78e91f08fecb7a30) |
 | Amtsgericht Tiergarten | Beschäftigte/r in der IT-Stelle – Entgeltgruppe 7 TV-L | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=26a504ef2bef64c8) |
@@ -893,10 +896,7 @@
 | 🌍 JetBrains | Talent Sourcer | Belgrade, Serbia; Berlin, G... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4773679101) |
 | 🌍 JetBrains | Head of B2B Marketing | Amsterdam, Netherlands; Bel... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4852550101) |
 | 🌍 JetBrains | AI Technical Lead - C++ Ecosystem | Amsterdam, Netherlands; Bel... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4901288101) |
-| 🌍 JetBrains | Senior ML Researcher (Spectrum) | Amsterdam, Netherlands; Bel... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4842200101) |
-| 🌍 JetBrains | Product Leader (Agent Platform) | Amsterdam, Netherlands; Bel... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4790478101) |
-| 🌍 JetBrains | Compensation and Benefits Specialist / Partner | Amsterdam, Netherlands; Ber... | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/jetbrains/jobs/4867498101) |
 
 ---
 
-*Last updated: 2026-08-07 00:04 UTC • Total: 102438 jobs across 22969 companies*
+*Last updated: 2026-08-07 02:18 UTC • Total: 102499 jobs across 22976 companies*
