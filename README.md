@@ -1,12 +1,12 @@
 # 🇩🇪 Work in Germany — Automated Job Board
 
-![Jobs](https://img.shields.io/badge/jobs-100757-blue)
-![Visa Friendly](https://img.shields.io/badge/visa%20friendly-2243-green)
-![English OK](https://img.shields.io/badge/english%20OK-1346-orange)
-![Companies](https://img.shields.io/badge/companies-22678-purple)
+![Jobs](https://img.shields.io/badge/jobs-100412-blue)
+![Visa Friendly](https://img.shields.io/badge/visa%20friendly-2232-green)
+![English OK](https://img.shields.io/badge/english%20OK-1339-orange)
+![Companies](https://img.shields.io/badge/companies-22647-purple)
 ![Updated](https://img.shields.io/badge/updated-every%206%20hours-success)
 
-> **Fully automated** list of tech jobs in Germany, scraped from **22678 company career pages** and updated every 6 hours.
+> **Fully automated** list of tech jobs in Germany, scraped from **22647 company career pages** and updated every 6 hours.
 
 > 🔄 Unlike manual lists, this repo uses **100+ company APIs** (Greenhouse, Lever) and updates automatically via GitHub Actions.
 > Every listing is tagged with language requirements and visa sponsorship status.
@@ -17,33 +17,33 @@
 
 ## 📂 Browse Jobs by Category
 
-💻 [Software Engineering](#-software-engineering) (10274)
+💻 [Software Engineering](#-software-engineering) (10246)
 
-🤖 [Data Science & ML](#-data-science--ml) (2938)
+🤖 [Data Science & ML](#-data-science--ml) (2932)
 
-📊 [Data Engineering](#-data-engineering) (1436)
+📊 [Data Engineering](#-data-engineering) (1433)
 
-🏗️ [Infrastructure & SRE](#-infrastructure--sre) (4039)
+🏗️ [Infrastructure & SRE](#-infrastructure--sre) (4032)
 
-📋 [Product & Management](#-product--management) (4840)
+📋 [Product & Management](#-product--management) (4825)
 
-🎨 [Design & UX](#-design--ux) (1220)
+🎨 [Design & UX](#-design--ux) (1218)
 
-💼 [Business & Finance](#-business--finance) (13463)
+💼 [Business & Finance](#-business--finance) (13394)
 
-📢 [Marketing & Sales](#-marketing--sales) (10483)
+📢 [Marketing & Sales](#-marketing--sales) (10441)
 
-👥 [HR & Recruiting](#-hr--recruiting) (436)
+👥 [HR & Recruiting](#-hr--recruiting) (434)
 
-🔬 [Research & Science](#-research--science) (767)
+🔬 [Research & Science](#-research--science) (762)
 
-🎓 [Werkstudent & Internship](#-werkstudent--internship) (18039)
+🎓 [Werkstudent & Internship](#-werkstudent--internship) (17974)
 
-🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (3935)
+🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (3924)
 
 🔧 [Hardware Engineering](#-hardware-engineering) (160)
 
-💼 [Other](#-other) (28727)
+💼 [Other](#-other) (28637)
 
 ---
 
@@ -75,7 +75,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 10274 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 10246 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -134,7 +134,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2938 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2932 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -193,7 +193,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1436 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1433 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -213,6 +213,7 @@
 | Jobster | Senior Data Engineer (m/w/d) - Jobbird.com | Heidelberg, Baden-Württemberg | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4449709336) |
 | Jobster | Senior Data Engineer (m/w/d) - Jobbird.com | Hanover, Lower Saxony | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4449726079) |
 | Haystack | Data Engineer | Germany | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4449398311) |
+| TetraScience | Scientific Data Architect - Germany Expression of interest | Darmstadt, Hesse | 3 days ago | [Apply](https://www.linkedin.com/jobs/view/4450236993) |
 | 🚀 N26 | Site Reliability Engineer - Data Platform | Berlin | 4 days ago | [Apply](https://n26.com/en-eu/careers/positions/7866309?gh_jid=7866309) |
 | DXC Technology | Modern Data Platform Architect/ Technical Team Lead (m/f/d) | Hamburg, HH, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=e915490aeebc85c5) |
 | AMER SPORTS | Senior Data Engineer (m/f/d) | Garching bei Munich, BY, DE | 4 days ago | [Apply](https://de.indeed.com/viewjob?jk=77928fd1e0e2d1ba) |
@@ -246,13 +247,12 @@
 | Schwarz Digits KG | Product Owner - Database as a Service / DBaaS - STACKIT (m/f/d) | Bad Friedrichshall, BW, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=b8f950cf1d11204e) |
 | United Internet | Werkstudent (w/m/d) Produktmanagement Broadband & Customer Platforms | Karlsruhe, BW, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=27cda4a56d20e251) |
 | GSE Ingenieur – Gesellschaft mbH | 4-wöchiges freiwilliges Praktikum Statik in Grundbau, Geotechnik, W... | Berlin-Reinickendorf, BE, DE | 6 days ago | [Apply](https://de.indeed.com/viewjob?jk=276726c26c2f53da) |
-| GEMA | Data Engineer (m/w/d) - vor Ort | Munich, Bavaria | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4447928674) |
 
 ## 🏗️ Infrastructure & SRE
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4039 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4032 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -311,7 +311,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4840 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4825 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -370,7 +370,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1220 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1218 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -429,7 +429,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 13463 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 13394 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -442,6 +442,7 @@
 | EY | EY-Parthenon (Senior) Consultant Projektmanagement & Controlling - ... | Düsseldorf, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=f3bd26fa4ab09e0d) |
 | ODEG - Ostdeutsche Eisenbahn GmbH | Controller Instandhaltung (m/w/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=d1dd988bbbaa8aa5) |
 | ODEG - Ostdeutsche Eisenbahn GmbH | Controller Instandhaltung (m/w/d) | Eberswalde, BB, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=f4bfa744fd91f9a0) |
+| Funk Dreidimensional | Controlling & Consulting – Bachelor of Arts / DHBW (m/w/d) | Villingen-Schwenningen, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=34836042638134ce) |
 | Uniper | (Senior) Liquidity Risk Analyst (f/m/d) | Düsseldorf, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=d0393648f19d3767) |
 | Hiveway GmbH | Solution Consultant (m/w/d) - PIM / MDM | Heidelberg, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=73a2ae13575df08d) |
 | Hiveway GmbH | Senior Business Consultant (m/w/d) - PIM / MDM | Heidelberg, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=42299e8ad87ff7ee) |
@@ -482,13 +483,12 @@
 | BRUNATA-METRONA GmbH Co. & KG | Sales Controller (m/w/d) | Munich, BY, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=cb01cec09f1ddfff) |
 | Stadtwerke Schwerte GmbH | Financial Controller (m/w/d) | Schwerte, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=5aa02a134574e4f7) |
 | WPP Media | Junior Financial Controller (Mensch) | Düsseldorf, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=6ca9cf38c29c70b4) |
-| FFT Produktionssysteme GmbH & Co... | Finance Controller (m/f/x) for Fosun FFT Holding | Fulda, HE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=862ca25b8028c781) |
 
 ## 📢 Marketing & Sales
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 10483 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 10441 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -547,7 +547,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 436 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 434 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -606,7 +606,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 767 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 762 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -665,7 +665,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 18039 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 17974 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -693,6 +693,7 @@
 | REIFENHÄUSER GmbH & Co. KG Masch... | Werkstudent (m/w/d) im Bereich HR/Personalmanagement | Troisdorf, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=2d7f38a31ead85bd) |
 | Solanox GmbH | Werkstudent IT & KI | Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=2c99b1cb5ffafa77) |
 | PUMA | Internship Global Sporting Moments | Herzogenaurach, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=09f4b05eccc3d9a9) |
+| Vita Apotheke | Pharmazeut:in im Praktikum (PhiP) ab 05/27 | Hamburg, HH, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=16d6edc7ee47bd63) |
 | Leibniz-Institut für Bildungsver... | Studentische Hilfskraft (w/m/d) im Arbeitsbereich Bildungserträge u... | Bamberg, BY, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=656425cee6660235) |
 | STORY OF MINE | Aushilfe / Werkstudent:in (w/m/d) für Verkauf & Kaffeebar ab September | Münster, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=ca83d49b4e907558) |
 | Universitätsklinikum Erlangen | Studentische Hilfskraft (m/w/d) Qualitätsmanagement | Erlangen, BY, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=db58f1cec405140e) |
@@ -718,13 +719,12 @@
 | Mercedes-Benz Tech Innovation | Werkstudent (d/m/w/x) Organisation von Entwickler-Softwarefreigaben | Stuttgart, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=dd48608d4407cb3a) |
 | Mister Spex | Werkstudent Verkäufer (m/w/d) | Konstanz, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=2a7219058ba01b6b) |
 | DMK Deutsches Milchkontor GmbH | Werkstudent Prozessdokumentation & Standardisierung (m/w/d) | Waghäusel, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=b56820e4c835abfa) |
-| Eigenbetrieb für kommunale Aufga... | Werkstudentin oder Werkstudent für Besucherführungen (w/m/d) | Darmstadt, HE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=61b1be6ade2bcaee) |
 
 ## 🎒 Trainee & Ausbildung
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 3935 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 3924 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -842,7 +842,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 28727 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 28637 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -899,4 +899,4 @@
 
 ---
 
-*Last updated: 2026-08-09 01:04 UTC • Total: 100757 jobs across 22678 companies*
+*Last updated: 2026-08-09 06:52 UTC • Total: 100412 jobs across 22647 companies*
