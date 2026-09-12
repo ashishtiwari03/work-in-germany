@@ -1,12 +1,12 @@
 # 🇩🇪 Work in Germany — Automated Job Board
 
-![Jobs](https://img.shields.io/badge/jobs-94411-blue)
-![Visa Friendly](https://img.shields.io/badge/visa%20friendly-2279-green)
-![English OK](https://img.shields.io/badge/english%20OK-1272-orange)
-![Companies](https://img.shields.io/badge/companies-21568-purple)
+![Jobs](https://img.shields.io/badge/jobs-93942-blue)
+![Visa Friendly](https://img.shields.io/badge/visa%20friendly-2268-green)
+![English OK](https://img.shields.io/badge/english%20OK-1262-orange)
+![Companies](https://img.shields.io/badge/companies-21486-purple)
 ![Updated](https://img.shields.io/badge/updated-every%206%20hours-success)
 
-> **Fully automated** list of tech jobs in Germany, scraped from **21568 company career pages** and updated every 6 hours.
+> **Fully automated** list of tech jobs in Germany, scraped from **21486 company career pages** and updated every 6 hours.
 
 > 🔄 Unlike manual lists, this repo uses **100+ company APIs** (Greenhouse, Lever) and updates automatically via GitHub Actions.
 > Every listing is tagged with language requirements and visa sponsorship status.
@@ -17,33 +17,33 @@
 
 ## 📂 Browse Jobs by Category
 
-💻 [Software Engineering](#-software-engineering) (9336)
+💻 [Software Engineering](#-software-engineering) (9294)
 
-🤖 [Data Science & ML](#-data-science--ml) (2881)
+🤖 [Data Science & ML](#-data-science--ml) (2866)
 
-📊 [Data Engineering](#-data-engineering) (1468)
+📊 [Data Engineering](#-data-engineering) (1465)
 
-🏗️ [Infrastructure & SRE](#-infrastructure--sre) (3785)
+🏗️ [Infrastructure & SRE](#-infrastructure--sre) (3767)
 
-📋 [Product & Management](#-product--management) (4488)
+📋 [Product & Management](#-product--management) (4465)
 
-🎨 [Design & UX](#-design--ux) (1184)
+🎨 [Design & UX](#-design--ux) (1174)
 
-💼 [Business & Finance](#-business--finance) (12645)
+💼 [Business & Finance](#-business--finance) (12584)
 
-📢 [Marketing & Sales](#-marketing--sales) (9824)
+📢 [Marketing & Sales](#-marketing--sales) (9784)
 
-👥 [HR & Recruiting](#-hr--recruiting) (416)
+👥 [HR & Recruiting](#-hr--recruiting) (410)
 
-🔬 [Research & Science](#-research--science) (737)
+🔬 [Research & Science](#-research--science) (729)
 
-🎓 [Werkstudent & Internship](#-werkstudent--internship) (15517)
+🎓 [Werkstudent & Internship](#-werkstudent--internship) (15434)
 
-🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (4610)
+🎒 [Trainee & Ausbildung](#-trainee--ausbildung) (4589)
 
-🔧 [Hardware Engineering](#-hardware-engineering) (93)
+🔧 [Hardware Engineering](#-hardware-engineering) (90)
 
-💼 [Other](#-other) (27427)
+💼 [Other](#-other) (27291)
 
 ---
 
@@ -75,7 +75,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 9336 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 9294 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -123,18 +123,18 @@
 | Leidos | Knowledge Management Power Platform Engineer | Stuttgart, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=aecf683121684d59) |
 | Amazon.com | Sr. Systems Engineer, Managed Operations | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=71aacb0a877ee2ac) |
 | DICE | Senior Fullstack Engineer | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=3f168f67adcc858a) |
+| ACTIMI | Senior Backend Engineer (m/f/d) | Stuttgart, Baden-Württemberg | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4463969657) |
 | Rheinmetall | (Senior) Systems Engineer Ground Segment | Munich, BY, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=b44f12252f076475) |
 | Rhein-Nadel Automation GmbH | Fullstack Software Engineer (m/w/d) | Aachen, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=f1ddf81f5fcd8740) |
 | Intrinsic | Robotics Software Engineer - Grasping | Munich, BY, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=f2b64e4fe46c472b) |
 | Schwarz Corporate Solutions | (Senior) Compute Platform Engineer - OpenStack, KVM, QEMU, libvirt ... | Bad Friedrichshall, BW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=c56d4a7a2831b636) |
 | Schwarz Corporate Solutions | (Senior) Compute Platform Engineer - OpenStack, KVM, QEMU, libvirt ... | Berlin, BE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=a6471e39c6876402) |
-| Schwarz Corporate Solutions | (Senior) Compute Platform Engineer - OpenStack, KVM, QEMU, libvirt ... | Berlin, BE, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=db61b636d526f1d3) |
 
 ## 🤖 Data Science & ML
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 2881 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 2866 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -193,7 +193,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1468 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1465 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -209,6 +209,8 @@
 | nan | Werkstudent (m/w/d) - Data Platform | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6493a5e6c38ffc0c) |
 | Alloheim Gruppe | Pflegefachkraft (m/w/d) Springer für Odenthal, Bergisch Gladbach & ... | Odenthal, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=095f2826bb373f9a) |
 | Climate Analytics | Data Engineer (f/m/d) | Berlin, BE, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=5d5d39c397522906) |
+| Jobgether | Senior Data Engineer - Mobile Apps | Germany | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4464862090) |
+| BKK firmus | Data Engineer (m/w/d) | Germany | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4464885375) |
 | nan | BI Developer / Data Engineer | Erkrath, NW, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=6ddaf85312b217a3) |
 | LOHNunion GmbH | Data Engineer:in / IT Support (m/w/d) | Kiel, SH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=2e186b24ac859906) |
 | ACONEXT Stuttgart GmbH | Senior Data Engineer (m/w/d) Data Platform & Cloud Native | Dresden, SN, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=9623eb8ec5fa0c86) |
@@ -245,17 +247,16 @@
 | Trianel GmbH | (Senior) Data Architect / Data Engineer (m/w/d) | Aachen, North Rhine-Westphalia | 6 days ago | [Apply](https://www.linkedin.com/jobs/view/4399291846) |
 | Optipack GmbH | Senior Data Engineer Azure & Databricks (m/w/d) | Fischach, Bavaria | 2026-09-05 | [Apply](https://www.linkedin.com/jobs/view/4461497404) |
 | TetraScience | Scientific Data Architect -Darmstadt or Düsseldorf, Germany | Düsseldorf, NW, DE | 2026-09-04 | [Apply](https://de.indeed.com/viewjob?jk=d20f769c9d841c81) |
-| TetraScience | Scientific Data Architect -Darmstadt or Düsseldorf, Germany | Darmstadt, HE, DE | 2026-09-04 | [Apply](https://de.indeed.com/viewjob?jk=ced7190d95bcf761) |
-| TetraScience | Scientific Data Architect -Darmstadt or Düsseldorf, Germany | Frankfurt, HE, DE | 2026-09-04 | [Apply](https://de.indeed.com/viewjob?jk=829e25d69653dd65) |
 
 ## 🏗️ Infrastructure & SRE
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 3785 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 3767 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| nan | Freelance Cloud / Infrastructure Engineer (m/w/d) - DevOps | Platfo... | Bad Homburg vor der Höhe, H... | Today | [Apply](https://de.indeed.com/viewjob?jk=bc988e672679e120) |
 | mund consulting AG | DevOps Engineer (AWS, Linux, Oracle) (m/w/d) 100% remote ID03273 | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=dd6dc40e5390832f) |
 | mund consulting AG | DevOps Engineer (AWS, Linux, Jenkins) (m/w/d) 100% remote ID03273A | DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=71a62a5eb8a7edba) |
 | 🌍 HelloFresh | Senior Cloud Security Engineer (m,f,x) | Berlin, Berlin | 1 day ago | [Apply](https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941) |
@@ -305,13 +306,12 @@
 | Henkel | IT / OT Security Engineer (d/m/w) | Düsseldorf, North Rhine-Wes... | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4435171181) |
 | GRASS-MERKUR | Senior Cloud Engineer  (m/w/d) | Hanover, Lower Saxony | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4463485166) |
 | Haystack | DevOps Engineer | Rhineland-Palatinate | 2 days ago | [Apply](https://www.linkedin.com/jobs/view/4464170640) |
-| 🚀 Celonis | Werktudent/in mit Schwerpunkt Gesellschaftsrecht | Munich | 3 days ago | [Apply](https://job-boards.greenhouse.io/celonis/jobs/7885744003?gh_jid=7885744003) |
 
 ## 📋 Product & Management
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4488 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4465 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -370,7 +370,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 1184 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 1174 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -429,7 +429,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 12645 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 12584 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -488,7 +488,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 9824 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 9784 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -547,7 +547,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 416 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 410 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -606,7 +606,7 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 737 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 729 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -665,10 +665,11 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 15517 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 15434 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Nestlé | Praktikum Marketing & Sales (m/w/d) | Frankfurt, HE, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=be40cc3fcd90b5c1) |
 | 🔥 Continental | Pflichtpraktikum - HR Personalwesen / Schwerpunkt Recruiting bei de... | Hanover | 1 day ago | [Apply](https://api.smartrecruiters.com/v1/companies/Continental/postings/744000148947985) |
 | Vorwerk SE & Co. KG | Werkstudent (m/w/d) im Bereich Software Quality Assurance | Wuppertal, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=47fce90ab3f9377f) |
 | TRELLEBORG | Working Student AI (m/f/d) | Stuttgart, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=052143d3d77f59cc) |
@@ -718,13 +719,12 @@
 | ITQ GmbH | WERKSTUDENT (M/W/D) PROJEKTMANAGEMENT – MINT EDUCATION | Garching bei Munich, BY, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=a025362602ebf9fa) |
 | One luxury GmbH | Praktikum im Produktbereich | Cologne, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=9dc3cfda9a055a63) |
 | One luxury GmbH | Praktikant:in oder Werkstudent:in im Bereich Marketing mit Schwerpu... | Cologne, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=6d29eaef653fe570) |
-| HARIBO | Praktikum Consumer & Market Insights / Marktforschung (m/w/d) | Bonn, NW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=f3ac35b8f326a16d) |
 
 ## 🎒 Trainee & Ausbildung
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 4610 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 4589 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -749,6 +749,8 @@
 | Allgemeines Krankenhaus Celle | Ausbildung zum Fachinformatiker (m/w/d) - Fachrichtung Systemintegr... | Celle, NI, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=4c1e1c28c13b18a1) |
 | TechniData IT AG | Duales Studium Informatik, Cyber Security (B.Sc.) (w/m/d) ab 2027 | Karlsruhe, BW, DE | 1 day ago | [Apply](https://de.indeed.com/viewjob?jk=04dcf7767da04fe7) |
 | Helvetia Deutschland | Ausbildung Fachinformatiker/in - Anwendungsentwicklung , Bad Hombur... | Bad Homburg, Hesse | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4464856317) |
+| ICN GmbH + Co. KG | Ausbildung zum Fachinformatiker für Systemintegration (w/m/d) ab Au... | Dortmund, North Rhine-Westp... | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4463968424) |
+| Helvetia Deutschland | Ausbildung Fachinformatiker/in - Anwendungsentwicklung , Hamburg , ... | Hamburg, Hamburg | 1 day ago | [Apply](https://www.linkedin.com/jobs/view/4464857076) |
 | Bilfinger | Ausbildung zum Industrie-Isolierer (m/w/d) am Standort Haßloch 2027 | Haßloch, RP, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=31c02746e187f4c9) |
 | Bilfinger | Ausbildung zum Industrie-Isolierer (m/w/d) am Standort Bitterfeld | Bitterfeld-Wolfen, ST, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=90d855c7c20f04fc) |
 | Bilfinger | Ausbildung zum Industrie-Isolierer (m/w/d) am Standort Leuna 2027 | Leuna, ST, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=eef54ab5a07f78d7) |
@@ -776,14 +778,12 @@
 | Otto GmbH & Co. KGaA | Ausbildung Fachinformatiker Daten- & Prozessanalyse (w/m/d) | 01.09... | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=866497d81f39653a) |
 | Otto GmbH & Co. KGaA | Duales Studium Angewandte Informatik B.Sc. (w/m/d) | 01.09.2027 | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=0eeaca82d5b063af) |
 | Otto GmbH & Co. KGaA | Ausbildung Fachinformatiker Anwendungsentwicklung (w/m/d) | 01.09.2027 | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=0d68fdd10a274150) |
-| Otto GmbH & Co. KGaA | Duales Studium Business Informatics B.Sc. an der HSBA (w/m/d) | 01.... | Hamburg, HH, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=7b1e64d141aecd7d) |
-| CLASSEN Gruppe | Ausbildung zum Fachinformatiker für Anwendungsentwicklung (m/w/d) | Baruth/Mark, BB, DE | 2 days ago | [Apply](https://de.indeed.com/viewjob?jk=07cdae35fd1138d0) |
 
 ## 🔧 Hardware Engineering
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 93 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 90 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
@@ -842,10 +842,12 @@
 
 [Back to top](#-work-in-germany--automated-job-board)
 
-> Showing 50 of 27427 jobs. See all in [`data/jobs.json`](data/jobs.json).
+> Showing 50 of 27291 jobs. See all in [`data/jobs.json`](data/jobs.json).
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Dock Financial | Recherche- & Datenvalidierungs-Agent | Home Office, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=0fa5e5849d5c053a) |
+| nan | Aushilfe als Servicekraft (m/w/d) | Hamburg, HH, DE | Today | [Apply](https://de.indeed.com/viewjob?jk=b102c390bf219b0d) |
 | 💡 Raisin | Third Party Risk Manager (f/m/d) | Berlin, Berlin | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/raisin/jobs/4847099101) |
 | 🌍 Databricks | Sr. Manager, AI Forward Deployed Engineering (AI-FDE)  | Munich | 1 day ago | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8770300002) |
 | 🌍 MongoDB | Principal Partner Specialist | Berlin; Frankfurt; Munich; ... | 1 day ago | [Apply](https://www.mongodb.com/careers/job/?gh_jid=7887608) |
@@ -894,9 +896,7 @@
 | 🌍 Databricks | Strategic Core Account Executive - Insurance, m/f/d | Munich | 1 day ago | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=8353246002) |
 | 🚀 N26 | Lifecycle Manager | Berlin | 1 day ago | [Apply](https://n26.com/en-eu/careers/positions/8187978?gh_jid=8187978) |
 | 🚀 N26 | Senior Lifecycle Specialist | Berlin | 1 day ago | [Apply](https://n26.com/en-eu/careers/positions/8187986?gh_jid=8187986) |
-| 💡 Raisin | (Junior) CS Operations Manager- Complaints Management (m/f/d) | Berlin, Berlin | 1 day ago | [Apply](https://job-boards.eu.greenhouse.io/raisin/jobs/4952227101) |
-| 🌍 HelloFresh | Director, Customer Compensation & Policy  | Berlin, Berlin | 1 day ago | [Apply](https://careers.hellofresh.com/global/en/job/8195648?gh_jid=8195648) |
 
 ---
 
-*Last updated: 2026-09-12 10:00 UTC • Total: 94411 jobs across 21568 companies*
+*Last updated: 2026-09-12 14:49 UTC • Total: 93942 jobs across 21486 companies*
